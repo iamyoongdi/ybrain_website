@@ -1,3 +1,97 @@
 .container {
     margin-top: 0px;
 }
+
+.contact {
+    display: inline-block;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 959px;
+    margin: 0 auto;
+}
+
+.contact-left{
+    padding-top: 71px;
+    float: left;
+    width: 479px;
+}
+
+.contact-right{
+    padding-top: 71px;
+    float: left;
+    width: 479px;
+}
+
+.contact-title {
+    font-size: 18px;
+    color: #00afdb;
+    font-weight: 500;
+    margin: 0px;
+    text-align: left;
+    left: 0;
+}
+
+.contact-content {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+
+.contact form {
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.contact-input {
+    float: left;
+    border: solid 1px #d1d1d1;
+    border-radius: 1px;
+    line-height: 42px;
+    margin-bottom: 14px;
+    padding-left: 18px;
+    font-size: 16px;
+    background-color: #fcfcfc;
+    width: 463px;
+    box-sizing: border-box;
+}
+.contact .first {
+    margin-right:11px;
+}
+.contact .half {
+    width: 226px;
+    float: left;
+}
+.contact textarea{
+    padding-top: 10px;
+    line-height: 25px;
+    width: 463px;
+    height: 459px;
+    box-sizing: border-box;
+}
+
+.contact-submit {
+
+    margin-top: 14px;
+    margin-bottom: 140px;
+    border: none;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #00afdb;
+}
+
+.map {
+    width: 450px;
+    height: 353px;
+}
+
