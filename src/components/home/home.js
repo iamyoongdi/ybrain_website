@@ -23,7 +23,7 @@ class Home extends Component {
       <div className="container">
           <ImageGallery
             items={images}
-            slideInterval={4000}
+            slideInterval={3000}
             showThumbnails={false}
             showBullets={true}
             showFullscreenButton={false}
