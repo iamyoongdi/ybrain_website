@@ -22,18 +22,12 @@
   z-index: 10;
 }
 
-<<<<<<< HEAD
-ul { 
-  float: center;
-}
-=======
 .header-container {
   max-width: 959px;
   margin: 0 auto;
 }
 
 .menu {
->>>>>>> f9fe21c5f0c0e7638c7e8b16b1770f71d536aa8d
   list-style-type: none;
   margin: 0px;
   padding: 0;
