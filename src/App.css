@@ -8,6 +8,7 @@
 .logo {
   float: left;
   margin: 17px 0px;
+  padding-right: 102px;
 }
 
 .App-header {
@@ -38,7 +39,8 @@
   text-align: center;
   vertical-align: middle;
   float: left;
-  padding: 26px 22px;
+  padding: 26px 26px;
+  font-size: 16px;
 }
 
 .menu-title {
@@ -96,7 +98,7 @@
 
 .dropdown-underbar{
   position: relative;
-  top:21px;
+  top:23px;
   margin: 0px -13px;
   z-index: 15;
   display: none;
@@ -122,7 +124,7 @@
   width: 100%;
   background-color: #4a4a4a;
   height: 50px;
-  padding-top: 17px;
+  padding-top: 24px;
   font-size: 12px;
   text-align: center;
   color: #ffffff;

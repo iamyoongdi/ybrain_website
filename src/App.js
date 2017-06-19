@@ -22,7 +22,7 @@ class App extends Component {
                 <div className="dropdown-underbar"/>
               </li>
               <li className="dropdown">
-                TEHCNOLOGY
+                TECHNOLOGY
                 <ul className="dropdown-content">
                   <li><a className="dropdown-title">Vision</a></li>
                   <li><a className="dropdown-title">Members</a></li>
