@@ -5,9 +5,9 @@
 
 /*Header Menu*/
 
-img {
+.logo {
   float: left;
-  margin: 17px ;
+  margin: 17px 0px;
 }
 
 .App-header {
@@ -22,41 +22,107 @@ img {
   z-index: 10;
 }
 
+.header-container {
+  max-width: 959px;
+  margin: 0 auto;
+}
 
-ul { 
-  float: center;
+.menu {
   list-style-type: none;
-  margin: 6px;
+  margin: 0px;
   padding: 0;
-  overflow: hidden;
   text-align: center;
 }
 
-li {
+.menu li {
   text-align: center;
   vertical-align: middle;
   float: left;
-  padding: 22px 22px;
+  padding: 26px 22px;
 }
 
+.menu-title {
+  width: 78px;
+  height: 24px;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
 
-/*li a:hover {
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-title {
+  width: 100px;
+  height: 24px;
+  text-align: start;
+  font-size: 16px;
+  color: #9b9b9b;
+}
+
+.dropdown-title p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown-content {
+  position: absolute;
+  margin-top: 28px;
+  left: -10px;
+  list-style-type: none;
+  display: none;
+  background-color: #ffffff;
+  width: 255px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  z-index: 1;
+  padding: 14px 0px;
+}
+
+.dropdown-content-210{
+  width: 210px;
+}
+
+.dropdown-content>li{
+  padding: 12px 0px 12px 40px;
+  clear: both;
+}
+
+.dropdown-content>li:hover .dropdown-title{
+  color: #000000;
+}
+
+.dropdown-underbar{
+  position: relative;
+  top:21px;
+  margin: 0px -13px;
+  z-index: 15;
+  display: none;
+  height:4px;
   background-color: #00afdb;
-}*/
+}
 
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+/*.dropdown-content:hover{*/
+  /*display: block;*/
+/*}*/
 
-
-
-
+.dropdown:hover .dropdown-underbar{
+  display: block;
+}
 
 
 /*Footer*/
 
 .App-footer {
   width: 100%;
-  bottom:0;
   background-color: #4a4a4a;
   height: 50px;
+  padding-top: 17px;
   font-size: 12px;
   text-align: center;
   color: #ffffff;
