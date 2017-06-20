@@ -12,6 +12,7 @@
     width: 100%;
     max-width: 959px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .contact-left{
@@ -27,7 +28,7 @@
 }
 
 .contact-title {
-    font-size: 18px;
+    font-size: 16px;
     color: #00afdb;
     font-weight: 500;
     margin: 0px;
@@ -36,7 +37,7 @@
 }
 
 .contact-content {
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     margin-top: 9px;
     margin-bottom: 24px;
@@ -55,7 +56,7 @@
     line-height: 42px;
     margin-bottom: 14px;
     padding-left: 18px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #fcfcfc;
     width: 463px;
     box-sizing: border-box;
@@ -71,7 +72,7 @@
     padding-top: 10px;
     line-height: 25px;
     width: 463px;
-    height: 459px;
+    height: 400px;
     box-sizing: border-box;
 }
 
@@ -82,7 +83,7 @@
     border: none;
     float: right;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: medium;
     color:#fff;
     width: 200px;
     height: 50px;
@@ -92,6 +93,6 @@
 
 .map {
     width: 450px;
-    height: 353px;
+    height: 360px;
 }
 

@@ -147,8 +147,8 @@
 .image-gallery-left-nav,
 .image-gallery-right-nav {
   color: #fff;
-  font-size: 4.5em;
-  padding: 50px 35px;
+  font-size: 3.8em;
+  padding: 270px 40px;
   top: 60%;
   transform: translateY(-70%); }
   .image-gallery-left-nav[disabled],

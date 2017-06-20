@@ -8,14 +8,14 @@
 .logo {
   float: left;
   margin: 17px 0px;
-  padding-right: 102px;
+  padding-right: 120px;
 }
 
 .App-header {
   position: fixed;
   top:0;
   background-color: #fff;
-  height: 71px;
+  height: 67px;
   width: 100%;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -40,13 +40,13 @@
   vertical-align: middle;
   float: left;
   padding: 26px 26px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .menu-title {
   width: 78px;
   height: 24px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   color: #000000;
 }
@@ -98,7 +98,7 @@
 
 .dropdown-underbar{
   position: relative;
-  top:23px;
+  top:21px;
   margin: 0px -13px;
   z-index: 15;
   display: none;
