@@ -14,18 +14,14 @@ class App extends Component {
             <ul className="menu">
               <li className="dropdown">
                 <a className="menu-title">ABOUT US</a>
-                <ul className="dropdown-content">
-                  <li><a className="dropdown-title">Vision</a></li>
-                  <li><a className="dropdown-title">Members</a></li>
-                  <li><a className="dropdown-title">History & Location</a></li>
-                </ul>
+
                 <div className="dropdown-underbar"/>
               </li>
               <li className="dropdown">
                 TECHNOLOGY
                 <ul className="dropdown-content">
-                  <li><a className="dropdown-title">Vision</a></li>
-                  <li><a className="dropdown-title">Members</a></li>
+                  <li><a className="dropdown-title">History - tDCS</a></li>
+                  <li><a className="dropdown-title">Mechanism</a></li>
                   <li><a className="dropdown-title"><p>Clinical Indications & <br/> Research Applications</p></a></li>
                 </ul>
                 <div className="dropdown-underbar"/>
@@ -33,6 +29,12 @@ class App extends Component {
 
               <li className="dropdown">
                 PRODUCT
+                <ul className="dropdown-content">
+                  <li><a className="dropdown-title">Purpose</a></li>
+                  <li><a className="dropdown-title">Features</a></li>
+                  <li><a className="dropdown-title">Efficacy & Safety</a></li>
+                  <li><a className="dropdown-title">Use</a></li>
+                </ul>
                 <div className="dropdown-underbar"/>
               </li>
               <li className="dropdown">
@@ -40,7 +42,7 @@ class App extends Component {
                 <div className="dropdown-underbar"/>
               </li>
               <li className="dropdown">
-                BLOG
+                CONTACTS
                 <div className="dropdown-underbar"/>
               </li>
             </ul>
