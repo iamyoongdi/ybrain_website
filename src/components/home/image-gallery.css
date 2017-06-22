@@ -224,13 +224,15 @@
     appearance: none;
     background-color: #d1d1d1;
     border: 0px solid;
-    border-radius: 50%;
+    width: 70px;
+    height: 6px;
+    border-radius: 100px;
     box-shadow: 0 0 0;
     cursor: pointer;
     display: inline-block;
     margin: 0 8px;
     outline: none;
-    padding: 5px; }
+ }
     @media (max-width: 768px) {
       .image-gallery-bullets .image-gallery-bullet {
         margin: 0 3px;
