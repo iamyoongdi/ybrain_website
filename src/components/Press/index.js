@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 
-class Home extends Component {
+class Press extends Component {
 
   render() {
     return (
@@ -10,4 +10,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Press;

@@ -10,12 +10,15 @@
     "react-google-maps": "^6.3.0",
     "react-image-gallery": "^0.8.2",
     "react-responsive": "^1.3.0",
-    "react-router-dom": "^4.1.1"
-  },
-  "devDependencies": {
+    "react-router-dom": "^4.1.1",
     "react-scripts": "1.0.7"
   },
+  "devDependencies": {
+
+  },
   "scripts": {
+    "postinstall": "npm i -g serve && npm run build",
+    "serve": "serve build -p 8080 -s ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
