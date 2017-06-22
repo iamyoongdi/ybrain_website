@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import './style.css';
+import CommonContact from '../CommonContact';
 
-class Home extends Component {
+
+class About extends Component {
 
   render() {
     return (
-        <h1>About page</h1>
+    <div>
+      <img className="main-img" src={require('../../assets/slideimgs-aboutus@3x.png')}/>
+      <h1>About page</h1>
+      <CommonContact/>
+    </div>
+
     );
   }
 }
 
-export default Home;
+export default About;

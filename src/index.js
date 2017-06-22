@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import registerServiceWorker from './registerServiceWorker';
-import { Route, HashRouter } from 'react-router-dom';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 import browserHistory from 'history/createBrowserHistory'
 
 import './index.css';
@@ -10,9 +10,9 @@ import './index.css';
 import AppComponent from './components/App';
 
 ReactDOM.render(
-  <HashRouter history={browserHistory}>
-    <Route component={AppComponent} />
-  </HashRouter>
+  <Router history={browserHistory}>
+    <Route  component={AppComponent} />
+  </Router>
   , document.getElementById('root')
 );
 
