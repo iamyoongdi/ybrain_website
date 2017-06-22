@@ -6,7 +6,7 @@ import "./image-gallery.css";
 import GoogleMapReact from 'google-map-react';
 import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 
-const AnyReactComponent = () => <img className="mapmarker" src={require('../../assets/ybrain-symbol.png')}/>;
+const AnyReactComponent = () => <img className="mapmarker" src={require('../../assets/ybrain-symbol@2x.png')}/>;
 
 class Home extends Component {
   static defaultProps = {
@@ -79,16 +79,14 @@ class Home extends Component {
             <div className="contact-left">
                 <p className="contact-title">Follow Us</p>
                   <div className="socialmedia-container">
-                    <div className="socialmedia">
-                      <a href='http://www.facebook.com' target="_blank">
-                        <img className="facebook" alt={'facebook'} src={require('../../assets/facebook-solid.svg')}/></a>
-                      <a href='http://www.twitter.com' target="_blank">
-                        <img className="twitter" alt={'twitter'} src={require('../../assets/twitter-solid.svg')}/></a>
-                      <a href='http://www.naver.com' target="_blank">
-                        <img className="naver-blog" alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')}/></a>
-                      <a href='http://www.linkedin.com' target="_blank">
-                        <img className="linkedin" alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')}/></a>
-                    </div>
+                      <a className="socialmedia" href='http://www.facebook.com' target="_blank">
+                        <img alt={'facebook'} src={require('../../assets/facebook-solid.svg')}/></a>
+                      <a className="socialmedia" href='http://www.twitter.com' target="_blank">
+                        <img alt={'twitter'} src={require('../../assets/twitter-solid.svg')}/></a>
+                      <a className="socialmedia" href='http://www.naver.com' target="_blank">
+                        <img alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')}/></a>
+                      <a className="socialmedia" href='http://www.linkedin.com' target="_blank">
+                        <img alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')}/></a>
                   </div>
                 <p className="contact-title">General Inquiry</p>
                 <p className="contact-content">inquiries@ybrain.com</p>
