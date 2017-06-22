@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import './App.css';
 import Home from './components/home/home.js'
-import { Link } from 'react-router'
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
             <ul className="menu">
               <li className="dropdown">
                 <a className="menu-title">ABOUT US</a>
-
+                
                 <div className="dropdown-underbar"/>
               </li>
               <li className="dropdown">
