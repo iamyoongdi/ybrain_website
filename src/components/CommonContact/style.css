@@ -1,29 +1,34 @@
-.contact {
+.common-contact{
+    background-color: #263238;
+
+}
+
+.common-contact {
     display: inline-block;
     width: 100%;
     background-color: #f5f5f5;
 }
 
-.contact-container {
+.common-contact-container {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 100px;
 }
 
-.contact-left{
+.common-contact-left{
     padding-top: 71px;
     float: left;
     width: 479px;
 }
 
-.contact-right{
+.common-contact-right{
     padding-top: 71px;
     float: left;
     width: 479px;
 }
 
-.contact-title {
+.common-contact-title {
     clear: both;
     font-size: 16px;
     color: #00afdb;
@@ -33,7 +38,7 @@
     left: 0;
 }
 
-.contact-content {
+.common-contact-content {
     font-size: 14px;
     text-align: left;
     margin-top: 9px;
@@ -41,12 +46,12 @@
     color: #000000;
 }
 
-.contact form {
+.common-contact form {
     padding-top: 20px;
     padding-left: 16px;
 }
 
-.contact-input {
+.common-contact-input {
     float: left;
     border: solid 1px #d1d1d1;
     border-radius: 1px;
@@ -58,29 +63,29 @@
     width: 463px;
     box-sizing: border-box;
 }
-.contact .first {
+.common-contact .first {
     margin-right:11px;
 }
-.contact .half {
+.common-contact .half {
     width: 226px;
     float: left;
 }
 
-.socialmedia-container {
+.common-contact-socialmedia-container {
     width: 100%;
     height:36px;
     margin-bottom: 26px;
 }
 
-.socialmedia{
+.common-contact-socialmedia{
     height:36px;
     width: 36px;
-    margin-right: 20px; 
+    margin-right: 20px;
     margin-top: 12px;
     float: left;
 }
 
-.contact textarea{
+.common-contact textarea{
     padding-top: 10px;
     line-height: 25px;
     width: 463px;
@@ -88,7 +93,7 @@
     box-sizing: border-box;
 }
 
-.contact-submit {
+.common-contact-submit {
     margin-top: 14px;
     margin-bottom: 140px;
     border: none;
