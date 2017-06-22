@@ -69,12 +69,10 @@
 .socialmedia-container {
     width: 100%;
     height:36px;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
 }
 
 .socialmedia{
-    height:36px;
-    width: 36px;
     margin-right: 20px; 
     margin-top: 12px;
     float: left;
