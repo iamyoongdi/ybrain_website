@@ -10,7 +10,7 @@
 
 .contact-container {
     width: 100%;
-    max-width: 959px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 100px;
 }
@@ -68,6 +68,18 @@
     width: 226px;
     float: left;
 }
+
+.socialmedia-container {
+    float: left;
+    margin-right: 200px;
+    margin-bottom: 26px;
+}
+.socialmedia{
+    margin-right: 20px; 
+    margin-top: 12px;
+    float: left;
+}
+
 .contact textarea{
     padding-top: 10px;
     line-height: 25px;

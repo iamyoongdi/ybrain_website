@@ -72,13 +72,18 @@ class Home extends Component {
         <div className="contact">
           <div className="contact-container">
             <div className="contact-left">
-              <p className="contact-title">Follow Us</p>
-              <p className="contact-content">SNS icons here</p>
-              <p className="contact-title">General Inquiry</p>
-              <p className="contact-content">inquiries@ybrain.com</p>
-              <p className="contact-title">Location</p>
-              <p className="contact-content">#802 8th Fl., Pangyo Digital Center C-dong, 242, Pangyo-ro,<br/>Bungdang-gu, Seongnam-si, Gyeonggi-do, 13487, Korea<br/><br/>경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
-              <div className="map">
+                <p className="contact-title">Follow Us</p>
+                  <div className="socialmedia-container">
+                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/facebook-solid.svg')}/>
+                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/twitter-solid.svg')}/>
+                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/naver-blog-solid.svg')}/>
+                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/linkedin-solid.svg')}/>
+                  </div>
+                <p className="contact-title">General Inquiry</p>
+                <p className="contact-content">inquiries@ybrain.com</p>
+                <p className="contact-title">Location</p>
+                <p className="contact-content">#802 8th Fl., Pangyo Digital Center C-dong, 242, Pangyo-ro,<br/>Bungdang-gu, Seongnam-si, Gyeonggi-do, 13487, Korea<br/><br/>경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
+                <div className="map">
                 <GoogleMapReact
                   bootstrapURLKeys={{
                     key: 'AIzaSyBARX_wYDa97NPlJGPSewHXqLcagvNFBuI',

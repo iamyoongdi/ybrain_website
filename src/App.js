@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './components/home/home.js'
+import { Link } from 'react-router'
+
 
 class App extends Component {
 
@@ -10,7 +12,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <div className="header-container">
-            <img className="logo" alt={'logo'} src={require('./assets/logo.svg')}/>
+            <img className="logo" alt={'logo'} src={require('./assets/logo.svg')} />
             <ul className="menu">
               <li className="dropdown">
                 <a className="menu-title">ABOUT US</a>
