@@ -16,6 +16,8 @@
     "react-scripts": "1.0.7"
   },
   "scripts": {
+    "postinstall": "npm i -g serve && npm run build",
+    "serve": "serve build -p 8080 -s ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
