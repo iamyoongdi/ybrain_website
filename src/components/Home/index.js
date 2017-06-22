@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
-import './home.css';
+import './style.css';
 import "./image-gallery.css";
 import GoogleMapReact from 'google-map-react';
 
@@ -59,7 +59,7 @@ class Home extends Component {
       }
     ]
     return (
-      <div className="container">
+      <div>
         <ImageGallery
           items={images}
           slideInterval={3000}
