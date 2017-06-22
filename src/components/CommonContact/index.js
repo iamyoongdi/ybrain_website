@@ -11,16 +11,16 @@ class CommonContact extends Component {
           <div className='common-contact-left'>
             <p className='common-contact-title'>Follow Us</p>
             <div className='common-contact-socialmedia-container'>
-              <a className='common-contact-socialmedia' href='http://www.facebook.com' target='_blank'>
+              <a className='common-contact-socialmedia' href='http://www.facebook.com' target='_blank' rel='noopener noreferrer'>
                 <img alt={'facebook'} src={require('../../assets/facebook-outline.svg')} />
               </a>
-              <a className='common-contact-socialmedia' href='http://www.twitter.com' target='_blank'>
+              <a className='common-contact-socialmedia' href='http://www.twitter.com' target='_blank' rel='noopener noreferrer'>
                 <img alt={'twitter'} src={require('../../assets/twitter-outline.svg')} />
               </a>
-              <a className='common-contact-socialmedia' href='http://www.naver.com' target='_blank'>
+              <a className='common-contact-socialmedia' href='http://www.naver.com' target='_blank' rel='noopener noreferrer'>
                 <img alt={'naver-blog'} src={require('../../assets/naver-blog-outline.svg')} />
               </a>
-              <a className='common-contact-socialmedia' href='http://www.linkedin.com' target='_blank'>
+              <a className='common-contact-socialmedia' href='http://www.linkedin.com' target='_blank' rel='noopener noreferrer'>
                 <img alt={'linkedin'} src={require('../../assets/linkedin-outline.svg')} />
               </a>
             </div>

@@ -56,30 +56,32 @@ class Home extends Component {
 
     return (
       <section>
-        <ImageGallery
-          items={images}
-          slideInterval={2000}
-          showThumbnails={false}
-          showBullets
-          showFullscreenButton={false}
-          showPlayButton={false}
-          onImageLoad={this.handleImageLoad}
-        />
+        <div className='ig'>
+          <ImageGallery
+            items={images}
+            slideInterval={2000}
+            showThumbnails={false}
+            showBullets
+            showFullscreenButton={false}
+            showPlayButton={false}
+            onImageLoad={this.handleImageLoad}
+          />
+        </div>
         <div className='contact'>
           <div className='contact-container'>
             <div className='contact-left'>
               <p className='contact-title'>Follow Us</p>
               <div className='socialmedia-container'>
-                <a className='socialmedia' href='http://www.facebook.com' target='_blank'>
+                <a className='socialmedia' href='http://www.facebook.com' target='_blank' rel='noopener noreferrer'>
                   <img alt={'facebook'} src={require('../../assets/facebook-solid.svg')} />
                 </a>
-                <a className='socialmedia' href='http://www.twitter.com' target='_blank'>
+                <a className='socialmedia' href='http://www.twitter.com' target='_blank' rel='noopener noreferrer'>
                   <img alt={'twitter'} src={require('../../assets/twitter-solid.svg')} />
                 </a>
-                <a className='socialmedia' href='http://www.naver.com' target='_blank'>
+                <a className='socialmedia' href='http://www.naver.com' target='_blank' rel='noopener noreferrer'>
                   <img alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')} />
                 </a>
-                <a className='socialmedia' href='http://www.linkedin.com' target='_blank'>
+                <a className='socialmedia' href='http://www.linkedin.com' target='_blank' rel='noopener noreferrer'>
                   <img alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')} />
                 </a>
               </div>

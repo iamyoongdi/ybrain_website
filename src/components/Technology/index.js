@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import './style.css';
 import CommonContact from '../CommonContact';
 
-import mainImage from '../../assets/slideimgs-press@2x.png';
+import mainImage from '../../assets/slideimgs-technology@2x.png';
 import sylbolImage from '../../assets/ybrain-symbol@3x.png';
 
-class Press extends Component {
+class Technology extends Component {
 
   render() {
     return (
@@ -15,7 +15,7 @@ class Press extends Component {
         <div className='main-container'>
           <div className='main-container-header'>
             <img className='main-container-symbol' alt='' src={sylbolImage} />
-            <h2 className='main-container-title'>Press</h2>
+            <h2 className='main-container-title'>Technology</h2>
           </div>
           <div className='main-container-content' />
         </div>
@@ -25,4 +25,4 @@ class Press extends Component {
   }
 }
 
-export default Press;
+export default Technology;

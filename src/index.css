@@ -4,7 +4,46 @@ body {
   font-family: sans-serif;
 }
 
-section {
+.inner-container{
+  width: 100%;
+  text-align: center;
+}
+
+.main-img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1000px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-container-header {
+  display: block;
+  float: right;
+  padding: 30px;
+}
+
+.main-container-symbol {
+  width: 19px;
+  height: 16px;
+  float: left;
+  margin-right: 20px;
+}
+
+.main-container-title {
   margin: 0;
-  padding: 0;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #465962;
+}
+
+.main-container-content {
+  clear: both;
+  height: 1000px;
+  background-color: #9b9b9b;
 }

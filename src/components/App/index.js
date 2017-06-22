@@ -7,13 +7,15 @@ import {
 
 import './style.css';
 import HomeComponent from '../Home';
-import AboutComponent from '../About';
+import AboutComponent from '../AboutUs';
+import TechnologyComponent from '../Technology';
+import ProductComponent from '../Product';
 import PressComponent from '../Press';
 
 // Desktop, tablet and mobile setup
-const Desktop = ({ children }) => <Responsive minWidth={992} children={children} />;
+const Desktop = ({ children }) => <Responsive minWidth={1000} children={children} />;
 // const Tablet = ({ children }) => <Responsive minWidth={768} maxWidth={992} children={children} />;
-// const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />;
+const Mobile = ({ children }) => <Responsive maxWidth={1000} children={children} />;
 
 class App extends Component {
   render() {
@@ -25,11 +27,11 @@ class App extends Component {
               <Link to='/'><img className='logo' alt={'logo'} src={require('../../assets/logo.svg')} /></Link>
               <ul className='menu'>
                 <li className='dropdown'>
-                  <Link to='/about' className='menu-title'>ABOUT US</Link>
+                  <Link to='/aboutus' className='menu-title'>ABOUT US</Link>
                   <div className='dropdown-underbar' />
                 </li>
                 <li className='dropdown'>
-                  TECHNOLOGY
+                  <Link to='/technology' className='menu-title'>TECHNOLOGY</Link>
                   <ul className='dropdown-content'>
                     <li><a className='dropdown-title'>History - tDCS</a></li>
                     <li><a className='dropdown-title'>Mechanism</a></li>
@@ -38,7 +40,7 @@ class App extends Component {
                   <div className='dropdown-underbar' />
                 </li>
                 <li className='dropdown'>
-                  PRODUCT
+                  <Link to='/product' className='menu-title'>PRODUCT</Link>
                   <ul className='dropdown-content'>
                     <li><a className='dropdown-title'>Purpose</a></li>
                     <li><a className='dropdown-title'>Features</a></li>
@@ -61,8 +63,11 @@ class App extends Component {
         </Desktop>
         <div className='container'>
           <Route exact path='/' component={HomeComponent} />
-          <Route path='/about' component={AboutComponent} />
+          <Route path='/aboutus' component={AboutComponent} />
+          <Route path='/technology' component={TechnologyComponent} />
+          <Route path='/product' component={ProductComponent} />
           <Route path='/press' component={PressComponent} />
+
         </div>
         <div className='App-footer'>
           <p>COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.</p>
