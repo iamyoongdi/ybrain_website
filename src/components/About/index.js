@@ -8,11 +8,13 @@ class About extends Component {
 
   render() {
     return (
-    <section>
+    <div>
       <img className="main-img" src={require('../../assets/slideimgs-aboutus@3x.png')}/>
-      <div></div>
+      <div className="main-container">
+
+      </div>
       <CommonContact/>
-    </section>
+    </div>
     );
   }
 }

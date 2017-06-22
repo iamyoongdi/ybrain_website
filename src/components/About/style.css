@@ -5,7 +5,11 @@
     border: 0px;
 }
 
-.main-img{
+.main-img {
     width: 100%;
     vertical-align: middle;
+}
+
+.main-container {
+    height: 1000px;
 }
