@@ -1,0 +1,7 @@
+.mapmarker{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+}

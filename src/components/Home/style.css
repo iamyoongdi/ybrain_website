@@ -1,7 +1,13 @@
+.ig {
+    width: 100%;
+    min-height: 400px;
+}
+
 .contact {
     display: inline-block;
     width: 100%;
     background-color: #f5f5f5;
+    text-align: center;
 }
 
 .contact-container {
@@ -9,18 +15,19 @@
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 100px;
+    display: inline-block;
 }
 
 .contact-left{
     padding-top: 71px;
     float: left;
-    width: 479px;
+    width: 50%;
 }
 
 .contact-right{
     padding-top: 71px;
     float: left;
-    width: 479px;
+    width: 50%;
 }
 
 .contact-title {
@@ -88,6 +95,7 @@
 
 .contact-submit {
     margin-top: 14px;
+    margin-right: 18px;
     margin-bottom: 140px;
     border: none;
     float: right;
@@ -99,12 +107,6 @@
     border-radius: 100px;
     background-color: #00afdb;
 }
-
-
-.mapmarker{
-    margin: -10px -10px 0 0;
-}
-
 
 .map {
     width: 450px;
