@@ -1,7 +1,10 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
+.container {
+  margin-top: 71px;
+}
 
 /*Header Menu*/
 
@@ -44,6 +47,7 @@
 }
 
 .menu-title {
+  text-decoration: none;
   width: 78px;
   height: 24px;
   font-size: 14px;
