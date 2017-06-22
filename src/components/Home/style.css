@@ -70,7 +70,25 @@
     margin-right: 200px;
     margin-bottom: 26px;
 }
-.socialmedia{
+.facebook{
+    margin-right: 20px; 
+    margin-top: 12px;
+    float: left;
+}
+
+.twitter{
+    margin-right: 20px; 
+    margin-top: 12px;
+    float: left;
+}
+
+.naver-blog{
+    margin-right: 20px; 
+    margin-top: 12px;
+    float: left;
+}
+
+.linkedin{
     margin-right: 20px; 
     margin-top: 12px;
     float: left;
@@ -97,6 +115,11 @@
     height: 50px;
     border-radius: 100px;
     background-color: #00afdb;
+}
+
+
+.mapmarker{
+    margin: -10px -10px 0 0;
 }
 
 

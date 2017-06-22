@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
+import React, { PropTypes, Component } from 'react';
+import shouldPureComponentUpdate from 'react-pure-render';
 import ImageGallery from 'react-image-gallery';
 import './style.css';
 import "./image-gallery.css";
 import GoogleMapReact from 'google-map-react';
+import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
+
+const AnyReactComponent = () => <img className="mapmarker" src={require('../../assets/ybrain-symbol.png')}/>;
 
 class Home extends Component {
   static defaultProps = {
-    center: {lat: 59.95, lng: 30.33},
-    zoom: 11
+    center: {lat: 37.402673, lng: 127.102109},
+    zoom: 18
   };
 
   constructor(props) {
@@ -58,11 +62,12 @@ class Home extends Component {
         original: require('../../assets/landing_3.png'),
       }
     ]
+  
     return (
       <div>
         <ImageGallery
           items={images}
-          slideInterval={3000}
+          slideInterval={2000}
           showThumbnails={false}
           showBullets={true}
           showFullscreenButton={false}
@@ -74,10 +79,16 @@ class Home extends Component {
             <div className="contact-left">
                 <p className="contact-title">Follow Us</p>
                   <div className="socialmedia-container">
-                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/facebook-solid.svg')}/>
-                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/twitter-solid.svg')}/>
-                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/naver-blog-solid.svg')}/>
-                    <img className="socialmedia" alt={'socialmedia'} src={require('../../assets/linkedin-solid.svg')}/>
+                    <div className="socialmedia">
+                      <a href='http://www.facebook.com' target="_blank">
+                        <img className="facebook" alt={'facebook'} src={require('../../assets/facebook-solid.svg')}/></a>
+                      <a href='http://www.twitter.com' target="_blank">
+                        <img className="twitter" alt={'twitter'} src={require('../../assets/twitter-solid.svg')}/></a>
+                      <a href='http://www.naver.com' target="_blank">
+                        <img className="naver-blog" alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')}/></a>
+                      <a href='http://www.linkedin.com' target="_blank">
+                        <img className="linkedin" alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')}/></a>
+                    </div>
                   </div>
                 <p className="contact-title">General Inquiry</p>
                 <p className="contact-content">inquiries@ybrain.com</p>
@@ -91,6 +102,10 @@ class Home extends Component {
                   defaultCenter={this.props.center}
                   defaultZoom={this.props.zoom}
                 >
+                <AnyReactComponent
+                  lat={this.props.center.lat}
+                  lng={this.props.center.lng}
+                />
                 </GoogleMapReact>
               </div>
             </div>
