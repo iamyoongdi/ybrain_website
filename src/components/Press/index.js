@@ -5,7 +5,7 @@ class Press extends Component {
 
   render() {
     return (
-        <h1>Press page</h1>
+      <h1>Press page</h1>
     );
   }
 }

@@ -148,7 +148,7 @@
 .image-gallery-right-nav {
   color: #fff;
   font-size: 3.8em;
-  padding: 200px 40px;
+  padding: 250px 40px;
   top: 60%;
   transform: translateY(-70%); }
   .image-gallery-left-nav[disabled],
@@ -191,7 +191,7 @@
   width: 100%; }
   .image-gallery-slide.center {
     position: relative; }
-  .image-gallery-slide img {
+  .image-gallery-slide img { 
     width: 100%; }
   .image-gallery-slide .image-gallery-description {
     background: rgba(0, 0, 0, 0.4);
@@ -224,8 +224,8 @@
     appearance: none;
     background-color: #d1d1d1;
     border: 0px solid;
-    width: 70px;
-    height: 2px;
+    width: 80px;
+    height: 1px;
     border-radius: 100px;
     box-shadow: 0 0 0;
     cursor: pointer;
