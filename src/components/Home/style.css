@@ -103,6 +103,11 @@
 }
 
 
+.mapmarker{
+    margin: -10px -10px 0 0;
+}
+
+
 .map {
     width: 450px;
     height: 360px;
