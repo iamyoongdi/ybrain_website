@@ -1,4 +1,11 @@
+.about{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 
 .main-img{
     width: 100%;
+    vertical-align: middle;
 }

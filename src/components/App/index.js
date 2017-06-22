@@ -16,15 +16,6 @@ const Desktop = ({ children }) => <Responsive minWidth={992} children={children}
 // const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />;
 
 class App extends Component {
-  // static propTypes = {
-  //   children: React.PropTypes.object.isRequired,
-  //   // viewer: React.PropTypes.object.isRequired
-  // };
-  //
-  // componentDidMount(){
-  //   console.log(this.props.children)
-  // }
-
   render() {
 
     return (
@@ -75,7 +66,7 @@ class App extends Component {
           <Route path="/press" component={PressComponent}/>
         </div>
         <div className="App-footer">
-          COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.
+          <p>COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     );

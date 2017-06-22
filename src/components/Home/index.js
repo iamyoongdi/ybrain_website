@@ -2,13 +2,9 @@ import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import './style.css';
 import "./image-gallery.css";
-import GoogleMapReact from 'google-map-react';
+import GoogleMap from '../GoogleMap';
 
 class Home extends Component {
-  static defaultProps = {
-    center: {lat: 59.95, lng: 30.33},
-    zoom: 11
-  };
 
   constructor(props) {
     super(props);
@@ -59,7 +55,7 @@ class Home extends Component {
       }
     ]
     return (
-      <div>
+      <section>
         <ImageGallery
           items={images}
           slideInterval={3000}
@@ -84,14 +80,7 @@ class Home extends Component {
                 <p className="contact-title">Location</p>
                 <p className="contact-content">#802 8th Fl., Pangyo Digital Center C-dong, 242, Pangyo-ro,<br/>Bungdang-gu, Seongnam-si, Gyeonggi-do, 13487, Korea<br/><br/>경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
                 <div className="map">
-                <GoogleMapReact
-                  bootstrapURLKeys={{
-                    key: 'AIzaSyBARX_wYDa97NPlJGPSewHXqLcagvNFBuI',
-                  }}
-                  defaultCenter={this.props.center}
-                  defaultZoom={this.props.zoom}
-                >
-                </GoogleMapReact>
+                  <GoogleMap/>
               </div>
             </div>
             <div className="contact-right">
@@ -108,7 +97,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-    </div>
+    </section>
     );
   }
 }

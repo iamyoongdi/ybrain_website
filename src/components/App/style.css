@@ -129,11 +129,17 @@
   background-color: #000;
   height: 50px;
   padding-top: 24px;
-  font-size: 12px;
   text-align: center;
   color: #ffffff;
-  vertical-align: middle;
+
   line-height: normal;
+}
+
+.App-footer>p {
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 28px;
+  margin: 0;
 }
 
 @keyframes App-logo-spin {
