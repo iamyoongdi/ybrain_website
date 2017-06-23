@@ -16,13 +16,15 @@
     display: inline-block;
 }
 
+
+
 .common-contact-left{
     float: left;
     width: 50%;
-    display: inline-block;
 }
 
 .common-contact-right{
+    display: inline-block;
     float: left;
     width: 50%;
 }
@@ -108,6 +110,32 @@
 }
 
 .map {
-    width: 450px;
+    width: 100%;
     height: 353px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .common-contact-container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .common-contact-container {
+        padding-top: 51px;
+        padding-bottom: 0;
+    }
+    .common-contact-left{
+        display: inline-block;
+        width: 85%;
+        padding-left: 30px;
+        float: left;
+    }
+    .common-contact-right{
+        display: inline-block;
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+
 }

@@ -18,6 +18,12 @@
     display: inline-block;
 }
 
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .contact-container {
+        max-width: 768px;
+    }
+}
+
 .contact-left{
     padding-top: 71px;
     float: left;
@@ -62,14 +68,13 @@
     padding-left: 18px;
     font-size: 14px;
     background-color: #fcfcfc;
-    width: 463px;
+    width: 100%;
     box-sizing: border-box;
 }
 .contact .first {
-    margin-right:11px;
 }
 .contact .half {
-    width: 226px;
+    width: 50%;
     float: left;
 }
 
@@ -88,7 +93,7 @@
 .contact textarea{
     padding-top: 10px;
     line-height: 25px;
-    width: 463px;
+    width: 100%;
     height: 400px;
     box-sizing: border-box;
 }
@@ -108,8 +113,8 @@
     background-color: #00afdb;
 }
 
-.map {
-    width: 450px;
+.home-map {
+    width: 90%;
     height: 360px;
 }
 
