@@ -67,7 +67,6 @@
     box-sizing: border-box;
 }
 .common-contact .first {
-    margin-right:11px;
 }
 .common-contact .half {
     width: 226px;
@@ -127,8 +126,10 @@
     }
     .common-contact-left{
         display: inline-block;
-        width: 85%;
+        box-sizing: border-box;
+        width: 100%;
         padding-left: 30px;
+        padding-right: 30px;
         float: left;
     }
     .common-contact-right{

@@ -1,15 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import registerServiceWorker from './registerServiceWorker';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
-import browserHistory from 'history/createBrowserHistory';
+import registerServiceWorker from './registerServiceWorker'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
+import browserHistory from 'history/createBrowserHistory'
 
-import './index.css';
+import './index.css'
 
-import AppComponent from './components/App';
+import AppComponent from './components/App'
 import ScrollToTopComponent from './components/ScrollToTop'
-
 
 ReactDOM.render(
   <Router history={browserHistory} >
@@ -18,6 +17,6 @@ ReactDOM.render(
     </ScrollToTopComponent>
   </Router>
   , document.getElementById('root')
-);
+)
 
-registerServiceWorker();
+registerServiceWorker()
