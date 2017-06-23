@@ -13,16 +13,15 @@ import ProductComponent from '../Product';
 import PressComponent from '../Press';
 
 // Desktop, tablet and mobile setup
-const Desktop = ({ children }) => <Responsive minWidth={1000} children={children} />;
-// const Tablet = ({ children }) => <Responsive minWidth={768} maxWidth={992} children={children} />;
-const Mobile = ({ children }) => <Responsive maxWidth={1000} children={children} />;
+const Desktop = ({ children }) => <Responsive minWidth={768} children={children} />;
+const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />;
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
         <Desktop>
-          <div className='App-header'>
+          <div className='header'>
             <div className='header-container'>
               <Link to='/'><img className='logo' alt={'logo'} src={require('../../assets/logo.svg')} /></Link>
               <ul className='menu'>
@@ -61,6 +60,9 @@ class App extends Component {
             </div>
           </div>
         </Desktop>
+        <Mobile>
+            <h2>Mobile Header</h2>
+        </Mobile>
         <div className='container'>
           <Route exact path='/' component={HomeComponent} />
           <Route path='/aboutus' component={AboutComponent} />

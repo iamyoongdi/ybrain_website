@@ -13,7 +13,7 @@
   margin: 17px 0px;
 }
 
-.App-header {
+.header {
   position: fixed;
   top:0;
   background-color: #fff;
@@ -118,6 +118,17 @@
   display: block;
 }
 
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 58px;
+  }
+}
 
 /*Footer*/
 
@@ -138,3 +149,5 @@
   line-height: 28px;
   margin: 0;
 }
+
+
