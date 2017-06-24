@@ -1,0 +1,12 @@
+.contact-map {
+    width: 100%;
+    height: 385px;
+}
+
+.mapmarker{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+}

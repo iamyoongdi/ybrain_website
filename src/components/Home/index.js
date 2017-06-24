@@ -73,7 +73,7 @@ class Home extends Component {
             <div className='contact-left'>
               <p className='contact-title'>Follow Us</p>
               <div className='socialmedia-container'>
-                <a className='socialmedia' href='http://www.facebook.com' target='_blank' rel='noopener noreferrer'>
+                <a className='socialmedia' href='https://www.facebook.com/ybrain.inc/' target='_blank' rel='noopener noreferrer'>
                   <img alt={'facebook'} src={require('../../assets/facebook-solid.svg')} />
                 </a>
                 <a className='socialmedia' href='http://www.twitter.com' target='_blank' rel='noopener noreferrer'>
@@ -82,7 +82,7 @@ class Home extends Component {
                 <a className='socialmedia' href='http://www.naver.com' target='_blank' rel='noopener noreferrer'>
                   <img alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')} />
                 </a>
-                <a className='socialmedia' href='http://www.linkedin.com' target='_blank' rel='noopener noreferrer'>
+                <a className='socialmedia' href='https://www.linkedin.com/company-beta/3571676/' target='_blank' rel='noopener noreferrer'>
                   <img alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')} />
                 </a>
               </div>

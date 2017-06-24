@@ -67,12 +67,12 @@ class App extends Component {
     if (this.state.isMobileMenuOpen === false) return null
     return (
       <div className='mobile-menu'>
-        <span onClick={this.closeMobileMenu} className='mobile-menu-close-button'>X</span>
+        <img className='mobile-menu-close-button' alt='' src={'../../assets/close.svg'} onClick={this.closeMobileMenu} />
         <Link to={routeString.HOME} onClick={this.closeMobileMenu}>
           <h2 className='mobile-menu-list'>HOME</h2>
         </Link>
         <Link to={routeString.ABOUT_US} onClick={this.closeMobileMenu}>
-          <h2 className='mobile-menu-list'>About Us</h2>
+          <h2 className='mobile-menu-list'>ABOUT US</h2>
         </Link>
         <div className='mobile-menu-seperator' />
         <h2 className='mobile-menu-list disable'>TECHNOLOGY</h2>
@@ -101,10 +101,10 @@ class App extends Component {
         </Link>
         <div className='mobile-menu-seperator' />
         <Link to={routeString.PRESS} onClick={this.closeMobileMenu}>
-          <h2 className='mobile-menu-list'>Press</h2>
+          <h2 className='mobile-menu-list'>PRESS</h2>
         </Link>
         <Link to={routeString.CONTACTS} onClick={this.closeMobileMenu}>
-          <h2 className='mobile-menu-list'>Contacts</h2>
+          <h2 className='mobile-menu-list'>CONTACT</h2>
         </Link>
         <ScrollLock />
       </div>
