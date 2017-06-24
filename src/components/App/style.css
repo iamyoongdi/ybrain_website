@@ -103,7 +103,7 @@
 .dropdown-underbar{
   position: relative;
   top:21px;
-  margin: 0px -13px;
+  margin: 1px -13px;
   z-index: 15;
   display: none;
   height:4px;
