@@ -8,6 +8,9 @@ import mainImage from '../../assets/slideimgs-press.png'
 import mainImageMobile from '../../assets/slideimgs-press-mobile@2x.png'
 import symbolImage from '../../assets/ybrain-symbol@3x.png'
 
+import YoutubePlayer from 'react-youtube-player';
+
+
 const Desktop = ({ children }) => <Responsive minWidth={768} children={children} />
 const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />
 
@@ -27,6 +30,16 @@ class Press extends Component {
             <h2 className='main-container-title'>Press</h2>
           </div>
           <div className='main-container-content' />
+            <YoutubePlayer
+              videoId='VHp1tQXx6rc'
+              playbackState='unstarted'
+              configuration={
+                  {
+                      showinfo: 0,
+                      controls: 0
+                  }
+              }
+          />
         </div>
         <CommonContact />
       </div>
