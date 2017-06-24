@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import GoogleMap from '../GoogleMap';
-import './style.css';
+import React, { Component } from 'react'
+import GoogleMap from '../GoogleMap'
+import './style.css'
 
 class CommonContact extends Component {
-
-  render() {
+  render () {
     return (
       <div className='common-contact'>
         <div className='common-contact-container'>
@@ -36,8 +35,8 @@ class CommonContact extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default CommonContact;
+export default CommonContact
