@@ -204,7 +204,7 @@ class App extends Component {
           <Route path={routeString.CONTACTS} component={Contacts} />
         </div>
         <div className='App-footer'>
-          <p>COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.</p>
+          <p>대표이사 이기원   I   COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     )

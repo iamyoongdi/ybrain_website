@@ -1,4 +1,31 @@
-.YoutubePlayer {
-    width: 924px;
-    height: 411px;
+    
+    
+.press-container{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding-top: 200px;
+        padding-bottom: 12px;
+        vertical-align: middle;
+        display: inline-block;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .press-container{
+        max-width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .press-container{
+        padding-top: 100px;
+        padding-bottom: 10;
+    }
+    .video{
+        position: relative; 
+        width: 280px;
+        height: 174px; 
+        margin: 0 auto;
+    }
+    }

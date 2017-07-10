@@ -8,7 +8,6 @@ import mainImage from '../../assets/slideimgs-press.png'
 import mainImageMobile from '../../assets/slideimgs-press-mobile@2x.png'
 import symbolImage from '../../assets/ybrain-symbol@3x.png'
 
-import YoutubePlayer from 'react-youtube-player';
 
 
 const Desktop = ({ children }) => <Responsive minWidth={768} children={children} />
@@ -29,17 +28,12 @@ class Press extends Component {
             <img className='main-container-symbol' alt='' src={symbolImage} />
             <h2 className='main-container-title'>Press</h2>
           </div>
-          <div className='main-container-content' />
-            <YoutubePlayer
-              videoId='VHp1tQXx6rc'
-              playbackState='unstarted'
-              configuration={
-                  {
-                      showinfo: 0,
-                      controls: 0
-                  }
-              }
-          />
+
+          <div className='press-container'>
+            <div class="video">
+              <iframe width="1000" height="500" src="https://www.youtube.com/embed/VHp1tQXx6rc?ecver=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
         </div>
         <CommonContact />
       </div>

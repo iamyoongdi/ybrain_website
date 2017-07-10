@@ -19,11 +19,11 @@ body {
   max-width: 1000px;
   display: inline-block;
   vertical-align: middle;
-}
+  }
 
 .main-container-header {
   display: block;
-  float: right;
+  float: left;
   padding: 30px;
 }
 
@@ -38,7 +38,7 @@ body {
   margin: 0;
   float: left;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: medium;
   color: #465962;
 }
 
