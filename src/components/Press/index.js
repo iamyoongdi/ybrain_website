@@ -29,9 +29,25 @@ class Press extends Component {
             <h2 className='main-container-title'>Press</h2>
           </div>
 
-          <div className='press-container'>
-            <div class="video">
-              <iframe width="1000" height="500" src="https://www.youtube.com/embed/VHp1tQXx6rc?ecver=1" frameborder="0" allowfullscreen></iframe>
+          <div className='main-container-content'>
+            <div class="videoWrapper">
+              <div class="video">
+                <iframe width="924" height="410" src="https://www.youtube.com/embed/VHp1tQXx6rc?ecver=1" allowfullscreen></iframe>
+            </div>
+            <div class="press-thumbnails-container">
+              <a className='press-thumnail' href='http://news.mk.co.kr/newsRead.php?&year=2017&no=229607' target='_blank' rel='noopener noreferrer'>
+                <img alt={'press-mk'} src={require('../../assets/press-1.png')} />
+              </a>
+              <a className='press-thumnail' href='http://khnews.kheraldm.com/view.php?ud=20170618000154&md=20170621003401_BL' target='_blank' rel='noopener noreferrer'>
+                <img alt={'press-kh'} src={require('../../assets/press-2.png')} />
+              </a>
+              <a className='press-thumnail' href='http://www.hankookilbo.com/v/0b63b8e99b06491b892ebc5c81ee617a' target='_blank' rel='noopener noreferrer'>
+                <img alt={'press-hankook'} src={require('../../assets/press-3.png')} />
+              </a>
+              <a className='press-thumnail' href='http://news.hankyung.com/article/201703135023i?nv=o' target='_blank' rel='noopener noreferrer'>
+                <img alt={'press-hk'} src={require('../../assets/press-4.png')} />
+              </a>
+            </div>
           </div>
         </div>
         </div>

@@ -39,18 +39,25 @@ body {
   float: left;
   font-size: 20px;
   font-weight: medium;
+  padding-bottom: 200px;
   color: #465962;
 }
 
 .main-container-content {
   clear: both;
-  height: 1000px;
-  background-color: #9b9b9b;
+  height: 100%;
+  padding-bottom: 160px;
 }
 
 @media screen and (max-width: 768px) {
   .main-container-title {
     font-size: 12px;
+  }
+
+  .main-container-content {
+    clear: both;
+    height: 100%;
+    padding-bottom: 80px;
   }
 
 }
