@@ -1,6 +1,7 @@
 .contact-map {
     width: 100%;
     height: 385px;
+    padding-bottom: 200px;
 }
 
 
@@ -12,27 +13,25 @@
     margin-top: -25px;
 }
 
-.inner-container{
+.contact-inner-container{
     background-color: #F5F5F5;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
 
-.main-container {
+.contacts-container{
     width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
-    padding-top: 200px;
-    padding-bottom: 140px;
     display: inline-block;
+    vertical-align: middle;
 }
+
 
 @media screen and (max-width: 1000px) and (min-width: 768px) {
     .contact-container {
         max-width: 768px;
     }
-}
 
 .contact-left{
     float: left;
@@ -79,6 +78,7 @@
     box-sizing: border-box;
 }
 
+
 .contact .first {
     box-sizing: border-box;
     padding-right: 10px;
@@ -124,6 +124,7 @@
     background-color: #00afdb;
 }
 
+}
 
 @media screen and (max-width: 768px) {
     .contact-container {
@@ -150,7 +151,7 @@
 
     .contact-input {
         margin-bottom: 10px;
-        
+
     }
 
     .contact .first {
@@ -164,4 +165,3 @@
     }
 
 }
-

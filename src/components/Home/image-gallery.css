@@ -225,12 +225,12 @@
     background-color: #d1d1d1;
     border: 0px solid;
     width: 80px;
-    height: 1px;
-    border-radius: 100px;
+    height: 1;
+    border-radius: 200px;
     box-shadow: 0 0 0;
     cursor: pointer;
     display: inline-block;
-    margin: 0 8px;
+    margin: 0 6px;
     outline: none;
  }
     @media (max-width: 768px) {

@@ -51,7 +51,7 @@ handleImageLoad (event) {
   
   render () {
     return (
-      <div className='inner-container'>
+      <div className='contact-inner-container'>
         <Desktop>
           <div className='contact-map'>
             <GoogleMap />
@@ -63,22 +63,22 @@ handleImageLoad (event) {
           </div>
         </Mobile>
         <div className='main-container'>
-          <div className='contact-left'>
-            <p className='contact-title'>Follow Us</p>
-            <div className='social-media-container'>
-              <a className='socialmedia' href='https://www.facebook.com/ybrain.inc/' target='_blank' rel='noopener noreferrer'>
-                  <img alt={'facebook'} src={require('../../assets/facebook-solid.svg')} />
-              </a>
-              <a className='socialmedia' href='https://www.twitter.com/' target='_blank' rel='noopener noreferrer'>
-                  <img alt={'twitter'} src={require('../../assets/twitter-solid.svg')} />
-              </a>
-              <a className='socialmedia' href='http://www.naver.com/' target='_blank' rel='noopener noreferrer'>
-                  <img alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')} />
-              </a>
-              <a className='socialmedia' href='https://www.linkedin.com/company-beta/3571676/' target='_blank' rel='noopener noreferrer'>
-                  <img alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')} />
-              </a>
-            </div>
+            <div className='contact-left'>
+              <p className='contact-title'>Follow Us</p>
+              <div className='social-media-container'>
+                <a className='socialmedia' href='https://www.facebook.com/ybrain.inc/' target='_blank' rel='noopener noreferrer'>
+                    <img alt={'facebook'} src={require('../../assets/facebook-solid.svg')} />
+                </a>
+                <a className='socialmedia' href='https://www.twitter.com/' target='_blank' rel='noopener noreferrer'>
+                    <img alt={'twitter'} src={require('../../assets/twitter-solid.svg')} />
+                </a>
+                <a className='socialmedia' href='http://www.naver.com/' target='_blank' rel='noopener noreferrer'>
+                    <img alt={'naver-blog'} src={require('../../assets/naver-blog-solid.svg')} />
+                </a>
+                <a className='socialmedia' href='https://www.linkedin.com/company-beta/3571676/' target='_blank' rel='noopener noreferrer'>
+                    <img alt={'linkedin'} src={require('../../assets/linkedin-solid.svg')} />
+                </a>
+          </div>  
             <p className='contact-title'>General Inquiry</p>
             <p className='contact-content'>inquiries@ybrain.com  I   +82 0321234567</p>
             <p className='contact-title'>Career</p>

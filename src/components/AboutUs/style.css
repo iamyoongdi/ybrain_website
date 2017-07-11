@@ -1,0 +1,98 @@
+
+/*COMMON*/
+
+.company-title{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.company-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+.about-us-company {
+    padding-bottom: 230px;
+}
+
+.timeline {
+    margin-bottom: -162px;
+    padding-top: 230px;
+}
+
+/*MISSION*/
+
+.mission {
+    padding-top: 254px;
+}
+
+.mission-image {
+    float: right;
+}
+
+.mission-text {
+    float: left;
+    margin-right: 30px;
+}
+
+.bar {
+    float: left;
+}
+
+.mission-title {
+    padding-top: 18px;
+    font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+    text-align: left;
+	color: #00afdb;
+}
+
+.mission-contents {
+    line-height: 1.5;
+	width: 429px;
+	height: 120px;
+	font-size: 16px;
+	color: #000000;
+    text-align: left;
+}
+
+
+/*VISION*/
+
+.vision {
+    padding-top: 140px;
+    float: left;
+}
+
+.vision-image {
+    float: left;
+}
+
+.vision-text {
+    float: right;
+    margin-left: 30px;
+}
+
+.bar {
+    float: left;
+}
+
+.vision-title {
+    font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+    text-align: left;
+	color: #00afdb;
+}
+
+.vision-contents {
+    line-height: 1.5;
+	width: 429px;
+	height: 120px;
+	font-size: 16px;
+	color: #000000;
+    text-align: left;
+}
