@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="104" cy="104" r="104" stroke="#C0F2FF" stroke-dasharray="3,4" stroke-linecap="round" stroke-width="2"/>
+        <circle cx="104" cy="104" r="94" stroke="#A3EDFF" stroke-dasharray="3,4" stroke-linecap="round" stroke-width="2"/>
+        <circle cx="104" cy="104" r="84" stroke="#65E0FF" stroke-dasharray="3,4" stroke-linecap="round" stroke-width="2"/>
+        <circle cx="104" cy="104" r="74" fill="#FFF" stroke="#00AFDB" stroke-dasharray="3,4" stroke-linecap="round" stroke-width="2"/>
+        <text fill="#00AFDB" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="22" font-weight="400">
+            <tspan x="64.02" y="114">심리치료</tspan>
+        </text>
+    </g>
+</svg>

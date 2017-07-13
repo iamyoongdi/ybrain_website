@@ -29,7 +29,7 @@ class AboutUs extends Component {
           </div>
           <div className='main-container-content' />
             <div className='about-us-company'>
-              <p className='company-title'>"Think<br/><font style={{color:'#00afdb'}}>Heal</font>thy"</p>
+              <p className='company-title'>"Think<br/><font style={{color:'#00afdb'}}>Healthy</font>"</p>
               <p className='company-text'>와이브레인이 뇌 과학을 통해 혁신하고자 하는 방향입니다.</p>
               <div className='mission'>
                 <div className='mission-image'>

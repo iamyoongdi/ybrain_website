@@ -1,0 +1,154 @@
+/* COMMON */
+
+.tech-texts-container {
+    width: 760px;
+    padding-left: 100px;
+}
+
+.tech-contents-title {
+    text-align: left;
+    color: #00afdb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tech-contents-texts {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 760px;
+    padding-bottom: 100px;
+}
+
+
+/* HISTORY */
+
+.tree-brain {
+    padding-bottom:200px;
+}
+
+
+
+/* MECHANISM */
+
+.brain-icon {
+    float: right;
+    padding-right: 260px;
+    /* padding-top: 20px; */
+}
+
+
+.brain-anatomy-container{
+    width: 840px;
+    padding-top:30px;
+    padding-bottom: 130px;
+}
+
+.brain-xray {
+    padding-top: 90px;
+    padding-bottom: 54px;
+    float: left;
+    vertical-align: middle;
+}
+
+.brain-anatomy-texts {
+    width: 310px;
+    float: right;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.brain-anatomy-title {
+    text-align: left;
+    color: #00afdb;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.brain-anatomy-contents {
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 14px;
+    line-height: 6px;
+}
+
+.depression-treatment-container {
+    width: 780px;
+    float: left;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.img-treatment-container {
+    float: none;
+}
+
+.treatment-imgs {
+    float: left;
+    padding-right: 50px;
+}
+
+.treatment-texts-container {
+    width: 760px;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.tech-treatment-contents {
+    width: 222px;
+    text-align: left;
+    font-size: 16px;
+    float: right;
+    padding-left: 31px;
+}
+
+
+.tech-contents-texts-bottom {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 760px;
+    padding-top: 120px;
+}
+
+
+
+
+/* CIRA */
+
+.cira-graph {
+    position: relative;
+    vertical-align: middle;
+    float: left;
+}
+
+.mards-texts-container {
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-bottom: 140px;
+}
+
+.mards-contents-title {
+    font-weight: bold;
+    color: #4a4a4a;
+    text-align: left;
+}
+
+.mards-contents-text {
+    padding-top: 40px;
+    text-align: left;
+    line-height: 1.75;
+}
+
+
+.cira-result-container {
+    clear: both;
+    width: 100%;
+
+}
+
+.side-effect-graph {
+    clear: both;
+    padding-right: 30px;
+}
