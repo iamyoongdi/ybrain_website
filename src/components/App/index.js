@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import { translate } from 'react-i18next';
+import { translate } from 'react-i18next'
 
 import ScrollLock from 'react-scrolllock'
 
@@ -114,7 +114,7 @@ class App extends Component {
   }
 
   render () {
-    const { t, i18n } = this.props;
+    const { t, i18n } = this.props
 
     const changeLanguage = (lng) => {
       console.log(`change language to ${lng}`)

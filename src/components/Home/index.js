@@ -4,6 +4,7 @@ import ImageGallery from 'react-image-gallery'
 import './style.css'
 import './image-gallery.css'
 import GoogleMap from '../GoogleMap'
+import $ from 'jquery'
 
 const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />
 
@@ -34,7 +35,21 @@ class Home extends Component {
   }
 
   handleSubmit (event) {
-    alert(`submitted: ${this.state.value}`)
+    $.ajax({
+      type: 'POST',
+      url: 'https://script.google.com/macros/s/AKfycbzhUDGTD2rJXOLc78amBQIxyq97jY7k2nxI_VX0cjG1t9j5htp0/exec',
+      data: {
+        name: this.state.name,
+        region: this.state.region,
+        email: this.state.email,
+        org: this.state.org,
+        subject: this.state.subject,
+        content: this.state.content
+      },
+      success: function (data) { alert('Send complete..') },
+      error: function () { alert('Send Error..') },
+      dataType: 'json'
+    })
     event.preventDefault()
   }
 
@@ -96,7 +111,7 @@ class Home extends Component {
             </div>
             <div className='contact-right'>
               <p className='contact-title'>Contact Us</p>
-              <form onSubmit={this.handleSubmit}>
+              <form onSubmit={this.handleSubmit} method='POST' action='https://script.google.com/macros/s/AKfycbzhUDGTD2rJXOLc78amBQIxyq97jY7k2nxI_VX0cjG1t9j5htp0/exec'>
                 <div className='half first'>
                   <input className='contact-input' placeholder='이름' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
                 </div>
@@ -111,7 +126,7 @@ class Home extends Component {
                 </div>
                 <input className='contact-input' placeholder='제목' name='subject'type='text' value={this.state.subject} onChange={this.handleInputChange} />
                 <textarea className='contact-input' placeholder='메세지를 남겨주세요' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
-                <input className='contact-submit'type='submit' value='Send' />
+                <input className='contact-submit' type='submit' value='Send' />
               </form>
             </div>
           </div>

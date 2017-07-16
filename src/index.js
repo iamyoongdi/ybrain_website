@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { I18nextProvider } from 'react-i18next'
-
 import registerServiceWorker from './registerServiceWorker'
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import browserHistory from 'history/createBrowserHistory'
@@ -22,5 +21,6 @@ ReactDOM.render(
   </I18nextProvider>
   , document.getElementById('root')
 )
+require('es6-promise').polyfill()
 
 registerServiceWorker()
