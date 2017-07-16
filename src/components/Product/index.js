@@ -132,7 +132,6 @@ class Use extends Component {
             <h2 className='main-container-title'>Use</h2>
           </div>
           <div className='main-container-content' />
-          <img className='oval' alt='' src={require('../../assets/icOvalGradient.svg')} />
           <div className='four-thumbnails'>
             <img className='station' alt='' src={require('../../assets/station.png')} />
             <img className='module' alt='' src={require('../../assets/module.png')} />

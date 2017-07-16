@@ -107,6 +107,10 @@
 .four-thumbnails {
     box-sizing: border-box;
     width: 100%;
+    background-image: url('../../assets/icOvalGradient.svg');
+    background-repeat:no-repeat;
+    background-position: center center;
+/*require('../../assets/icOvalGradient.svg')*/
     /* position: absolute; 
     margin-top: -400px;
     padding-bottom: 160px;  */
@@ -206,20 +210,24 @@
 
 .four-thumbnails {
     box-sizing: border-box;
-    width: 50%;
+    width: 100%;
     padding: 30px;
+    background-size: 150%;
 }
 
 .station {
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .module {
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .band {
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .complete {
