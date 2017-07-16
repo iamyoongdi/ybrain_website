@@ -30,10 +30,11 @@ class Press extends Component {
           </div>
 
           <div className='main-container-content'>
-            <div class="videoWrapper">
-              <div class="video">
-                <iframe width="924" height="410" src="https://www.youtube.com/embed/VHp1tQXx6rc?ecver=1" allowfullscreen></iframe>
-            </div>
+            {/* <div className= "video"> */}
+              <div className="videoWrapper">
+                <iframe  src="https://www.youtube.com/embed/VHp1tQXx6rc?ecver=1" allowfullscreen></iframe>
+              </div>   
+            {/* </div> */}
             <div class="press-thumbnails-container">
               <a className='press-thumnail' href='http://news.mk.co.kr/newsRead.php?&year=2017&no=229607' target='_blank' rel='noopener noreferrer'>
                 <img alt={'press-mk'} src={require('../../assets/press-1.png')} />
@@ -48,7 +49,6 @@ class Press extends Component {
                 <img alt={'press-hk'} src={require('../../assets/press-4.png')} />
               </a>
             </div>
-          </div>
         </div>
         </div>
         <CommonContact />

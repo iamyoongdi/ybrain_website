@@ -1,8 +1,9 @@
 /* COMMON */
 
-.tech-texts-container {
-    width: 760px;
-    padding-left: 100px;
+.tech-text-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
 }
 
 .tech-contents-title {
@@ -24,38 +25,50 @@
 /* HISTORY */
 
 .tree-brain {
-    padding-bottom:200px;
+
+    box-sizing: border-box;
+    padding: 10px;
+    width: 60%;
+}
+
+.tech-texts {
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+}
+
+.tech-contents-texts {
+    width: 100%;
 }
 
 
 
 /* MECHANISM */
 
-.brain-icon {
-    float: right;
-    padding-right: 260px;
-    /* padding-top: 20px; */
-}
-
-
 .brain-anatomy-container{
-    width: 840px;
+    box-sizing: border-box;
+    width: 100%;
     padding-top:30px;
     padding-bottom: 130px;
 }
 
 .brain-xray {
-    padding-top: 90px;
-    padding-bottom: 54px;
-    float: left;
-    vertical-align: middle;
+    padding-top: 160px;
+    float: left; 
+    box-sizing: border-box;
+    padding-left:20px;
+    padding-right:30px;
+    padding-bottom: 100px;
+    width: 50%;
 }
 
 .brain-anatomy-texts {
-    width: 310px;
-    float: right;
+    box-sizing: border-box;
+    padding-left: 50px; 
     padding-top: 140px;
     padding-bottom: 100px;
+    width: 50%;
+    float: right;
 }
 
 .brain-anatomy-title {
@@ -73,60 +86,66 @@
 }
 
 .depression-treatment-container {
-    width: 780px;
-    float: left;
-    text-align: center;
+    box-sizing: border-box;    
     padding-top: 130px;
+    width: 100%;
+    float: left; 
 }
 
-.img-treatment-container {
-    float: none;
-}
-
-.treatment-imgs {
-    float: left;
-    padding-right: 50px;
-}
-
-.treatment-texts-container {
-    width: 760px;
-    float: left;
-    padding-top: 50px;
+.treatment-container {
     padding-bottom: 120px;
+    margin: 0 auto;
+}
+
+.treatment-contents-container1 {
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding-top: 70px;
+}
+
+.treatment-contents-container2 {
+    box-sizing: border-box;
+    width: 33%;
+    display: inline-block;
+    padding-top: 70px;   
+}
+
+.treatment-contents-container3 {
+    box-sizing: border-box;
+    width: 33%;
+    float: right; 
+    padding-top: 70px;   
 }
 
 .tech-treatment-contents {
-    width: 222px;
-    text-align: left;
-    font-size: 16px;
-    float: right;
-    padding-left: 31px;
+    width: 120%;
+    padding-top: 30px;
+    padding-left: 40px;
+    text-align: left; 
 }
 
-
 .tech-contents-texts-bottom {
+    float: left;
     text-align: left;
     font-size: 16px;
     line-height: 1.5;
-    width: 760px;
-    padding-top: 120px;
 }
-
 
 
 
 /* CIRA */
 
-.cira-graph {
-    position: relative;
-    vertical-align: middle;
-    float: left;
+.cira-madrs {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
 }
 
 .mards-texts-container {
-    padding-top: 70px;
-    padding-left: 120px;
-    padding-bottom: 140px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 100px;
 }
 
 .mards-contents-title {
@@ -141,14 +160,61 @@
     line-height: 1.75;
 }
 
-
 .cira-result-container {
-    clear: both;
+    box-sizing: border-box;
     width: 100%;
+    padding: 30px;
+}
 
+.side-effect-container {
+    padding-bottom: 60px;
 }
 
 .side-effect-graph {
-    clear: both;
-    padding-right: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px;
+}
+
+.side-effect-table {
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 30px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .brain-xray {
+        width: 100%;
+    }
+
+    .brain-anatomy-texts {
+        width: 100%;
+        clear:both;
+}
+    .treatment-contents-container1{
+        width: 100%;
+    }
+
+    .treatment-contents-container2{
+        width: 100%;
+    }
+
+    .treatment-contents-container3{
+        width: 100%;
+    }
+
+    .side-effect-graph {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .side-effect-table {
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 40px;
+}
+
 }

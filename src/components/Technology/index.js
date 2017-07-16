@@ -70,7 +70,7 @@ class Mechanism extends Component {
                 <br /><br />일반적으로 마음의 감기라고 알려진 우울증은 감기라는 말처럼 다양한 인지 및 정신적, 신체적 증상으로 일상 기능의 저하를 일으키는 질환으로 생물학 / 심리학 / 사회적 다방면에 걸친 원인으로 인해 발병합니다.
                 <br /><br />뇌의 거름이라고 알려져 있는 신경전달물질이나 감정, 스트레스 제어와 관련있는 여러가지 뇌 부위에서 제대로 된 작동을 못해서특정한 스트레스에도 견딜 수 없는 큰 괴로움이 지속되는 것으로 알려져 있습니다. 이에 따라 사람들은 민감해지고, 불편한 감정을 느끼거나 우울감을 느끼게 됩니다</p>
               <div className='brain-anatomy-container'>
-                <hr className='bar' width="830px;" height="2px;" border="solid 2px" color="#00afdb" align="center"></hr>
+                <hr className='bar' width="100%;" height="2px;" border="solid 2px" color="#00afdb"></hr>
                 <img className='brain-xray' alt='brain-xray' src={require('../../assets/img-brain-xray.png')}/>
                 <div className='brain-anatomy-texts'>
                   <p className='brain-anatomy-title'>•	생화학적 / 환경적 요인들로 인한 </p>
@@ -84,22 +84,26 @@ class Mechanism extends Component {
                   <p className='brain-anatomy-title'>•	해마 / 시상하부 등의 비활성화 </p>
                   <p className='brain-anatomy-contents'>: 수면, 기억력 저하</p>
                 </div>
-                <hr className='bar' width="830px;" height="2px;" border="solid 2px" color="#00afdb" align="center"></hr>
+                <hr className='bar' width="100%" height="2px;" border="solid 2px" color="#00afdb"></hr>
               </div>
               <div className='depression-treatment-container'>
                 <p className='tech-contents-title'>우울증 치료</p>
                 <p className='tech-contents-texts'>우울증은 치료가 충분히 가능한 질병입니다. 그러나 일시적인 감정으로 받아들여 오랜시간 방관하게 되거나
                   <br />사회적인 시선과 편견때문에 본인 스스로 위축되는 일들이 많아 스트레스가 쌓이게 되고 뇌 기능은 더욱 저하됩니다. 이에 따라 우울증은 스스로 치유할 수 없는 상태의 중증으로 악화됩니다.
                   <br /><br />따라서 상황이 더 악화되기 전에 주변의 도움은 물론, 정신건강 전문가의 조언에 따라 우울증을 치료하고 관리하는 것이 매우 중요합니다. 심리적 상태와 우울증의 유형에 따라 의사선생님은 항우울제나 수면제와 같은 약물 치료부터 상담치료나 심리치료와 같은 다양한 방법의 치료를 진행합니다.</p>
-                <div className='img-treatment-container'>
-                  <img className='treatment-imgs' alt='medicine' src={require('../../assets/img-medicine.svg')} />
-                  <img className='treatment-imgs' alt='treatment' src={require('../../assets/img-treatment.svg')} />
-                  <img className='treatment-imgs' alt='non-medicine' src={require('../../assets/img-non-medicine.svg')} />
-                </div>
-                <div className='treatment-texts-container'>
-                  <p className='tech-treatment-contents'>• 	생물학적 관점 <br />• 	신경 호르몬 불균형 치료 중점</p>
-                  <p className='tech-treatment-contents'>• 	심리학적 관점 <br />• 	심리적 및 사회적 요소 해소 중점</p>
-                  <p className='tech-treatment-contents'>• 	신경생리학적 관점 <br />• 	비정상적 신경활동 재활 중점</p>
+                <div className='treatment-container'>
+                  <div className='treatment-contents-container1'>
+                    <img className='treatment-imgs' alt='medicine' src={require('../../assets/img-medicine.svg')} />
+                    <p className='tech-treatment-contents'>• 	생물학적 관점 <br />• 	신경 호르몬 불균형 치료 중점</p>
+                  </div>
+                  <div className='treatment-contents-container2'>
+                    <img className='treatment-imgs' alt='treatment' src={require('../../assets/img-treatment.svg')} />
+                    <p className='tech-treatment-contents'>• 	심리학적 관점 <br />• 	심리적 및 사회적 요소 해소 중점</p>
+                  </div>
+                  <div className='treatment-contents-container3'>
+                    <img className='treatment-imgs' alt='non-medicine' src={require('../../assets/img-non-medicine.svg')} />
+                    <p className='tech-treatment-contents'>• 	신경생리학적 관점 <br />• 	비정상적 신경활동 재활 중점</p>
+                  </div>
                 </div>
                 <p className='tech-contents-texts-bottom'>하지만 전적으로 약물에 의존하는 접근은 지나친 의존성과 부작용 등으로 인해 보다 건강한 치료로서는 한계를 보이기도 합니다. tDCS의 미세한 전류자극을 통한 물리적인 치료는 이러한 약물 치료가 가진 부작용을 최소화하는 동시에 증상을 완화하는 효과가 있습니다.</p>
               </div>  
