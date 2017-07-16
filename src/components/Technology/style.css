@@ -63,8 +63,8 @@
 
 .brain-anatomy-texts {
     box-sizing: border-box;
-    padding-left: 50px; 
-    padding-top: 140px;
+    padding-left: 30px; 
+    padding-top: 100px;
     padding-bottom: 100px;
     width: 50%;
     float: right;
@@ -147,6 +147,7 @@
     text-align: left;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 80px;
 }
 
 
