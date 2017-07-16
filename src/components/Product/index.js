@@ -62,10 +62,7 @@ class Features extends Component {
             <h2 className='main-container-title'>Features</h2>
           </div>
           <div className='main-container-content' />
-<<<<<<< HEAD
-            <img classNem='feature' alt='product-feature' src={require('../../assets/imgProductFeatures.png')} />
-=======
-            <img className='feature' alt='product-feature' src={require('../../assets/imgProductFeatures.png')} />
+            <img className='features' alt='product-feature' src={require('../../assets/imgProductFeature.png')} />
             {/* <div className='text-hospital-container'>
               <p className='title'>병원 중심의 재택 연계 치료</p>
               <p className='contents'>제품 ‘MIND’ 는 매일 병원을 방문하기 어려운 환자분들에게 보다 나은 치료 환경을 제공하기 위해 웨어러블 기기로 개발되었습니다. 의사선생님의 감독하에 재택 연계 치료가 가능합니다.</p>
@@ -78,13 +75,13 @@ class Features extends Component {
               <p className='title'>의사에게 편리한 의료기기</p>
               <p className='contents'>‘MIND’ 제품은 의사와 환자 두 사용자의 편의성을 모두 고려했습니다. 첫째, ‘MIND’는 컴팩트한 사이즈의 기기로 별도의 넓은 공간을 필요로 하지 않습니다. 의사분들은 기기설치를 위한 넓은 공간이 없이도 보다 안전하고 쉽게 여러 환자분들을 더 많이 치료할 수 있습니다. 둘째, 직관적이고 쉬운 프로그램이 제공됩니다. 친숙하고 간단한 프로그램으로 보다 간편하게 치료를 진행하게 됩니다.</p>
             </div> */}
->>>>>>> Product
         </div>
         <CommonContact />
       </div>
     )
   }
 }
+
 
 class Es extends Component {
   render () {
@@ -136,9 +133,6 @@ class Use extends Component {
             <h2 className='main-container-title'>Use</h2>
           </div>
           <div className='main-container-content' />
-<<<<<<< HEAD
-
-=======
             <img className='oval' alt='' src={require('../../assets/icOvalGradient.svg')} />
             <div className='four-thumbnails'>
               <img className='station' alt='' src={require('../../assets/station.png')} />
@@ -146,7 +140,6 @@ class Use extends Component {
               <img className='band' alt='' src={require('../../assets/band.png')} />
               <img className='complete' alt='' src={require('../../assets/complete.png')} />
             </div>
->>>>>>> Product
         </div>
         <CommonContact />
       </div>

@@ -222,10 +222,7 @@ class App extends Component {
         </div>
         <div className='App-footer'>
           <p>대표이사 이기원   I   COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.</p>
-<<<<<<< HEAD
-          <p>{t('advice')}</p>
-=======
->>>>>>> Product
+
         </div>
       </div>
     )
