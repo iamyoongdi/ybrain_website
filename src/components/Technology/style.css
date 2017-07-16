@@ -101,27 +101,45 @@
     width: 33%;
     float: left;
     padding-top: 70px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .treatment-contents-container2 {
     box-sizing: border-box;
     width: 33%;
     display: inline-block;
-    padding-top: 70px;   
+    padding-top: 70px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .treatment-contents-container3 {
     box-sizing: border-box;
     width: 33%;
     float: right; 
-    padding-top: 70px;   
+    padding-top: 70px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.treatment-imgs {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .tech-treatment-contents {
-    width: 120%;
+
     padding-top: 30px;
-    padding-left: 40px;
-    text-align: left; 
+    margin: 0 auto;
+    clear: both;
+    float: left;
+    text-align: left;
+    /*width: 120%;*/
+
+    /*padding-left: 40px;*/
+    /*text-align: left; */
 }
 
 .tech-contents-texts-bottom {
@@ -182,6 +200,11 @@
     padding: 20px;
 }
 
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .tech-treatment-contents {
+        font-size: 12px;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -192,22 +215,35 @@
     .brain-anatomy-texts {
         width: 100%;
         clear:both;
-}
+    }
+
+    .tech-treatment-contents {
+        font-size: 14px;
+    }
+
     .treatment-contents-container1{
         width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .treatment-contents-container2{
         width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .treatment-contents-container3{
         width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .side-effect-graph {
         box-sizing: border-box;
         width: 100%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     .side-effect-table {
