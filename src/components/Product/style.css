@@ -21,10 +21,43 @@
 
 .feature {
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    width: 100%;
+    padding: 30px;
+}
+
+/* .text-hospital-container {
+    float: right; 
+    box-sizing: border-box;
+    width: 50%;
+    padding: 30px;
+    padding-top: 1100px;
+    position: absolute; 
+    top: 40%;
+    left: 0;
+    background: inherit;
+}
+
+.text-patient-container {
+    display: inline-block;
+    box-sizing: border-box;
+>>>>>>> Product
     width: 50%;
     padding: 30px;
 }
 
+<<<<<<< HEAD
+=======
+.text-doctor-container {
+    float: right;
+    box-sizing: border-box;
+    width: 50%;    
+    padding: 30px;
+} */
+
+
+>>>>>>> Product
 /* SAFETY&EFFICACY */
 
 .text-safety-contatiner {
@@ -71,8 +104,58 @@
 
 /* USE */
 
+<<<<<<< HEAD
 
 
+=======
+.oval {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.four-thumbnails {
+    box-sizing: border-box;
+    width: 100%;
+    /* position: absolute; 
+    margin-top: -400px;
+    padding-bottom: 160px;  */
+}
+
+.station {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: -220px;
+    left: 0px; */
+}
+
+.module {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: -250px;
+    left: 500px; */
+}
+
+.band {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: 200px;
+    left: 0px; */
+}
+
+.complete {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: 170px;
+    left: 500px; */
+}
+>>>>>>> Product
 
 
 @media screen and (max-width: 768px) {
@@ -93,6 +176,20 @@
     padding: 30px;
 }    
 
+<<<<<<< HEAD
+=======
+.text-hospital-container {
+    width: 100%;
+}
+
+.text-patient-container {
+    width: 100%;
+}
+
+.text-doctor-container {
+    width: 100%;
+}
+>>>>>>> Product
 
 /* SAFETY&EFFICACY */
 
@@ -122,4 +219,29 @@
 
 /* USE */
 
+<<<<<<< HEAD
+=======
+.four-thumbnails {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 30px;
+}
+
+.station {
+    width: 100%;
+}
+
+.module {
+    width: 100%;
+}
+
+.band {
+    width: 100%;
+}
+
+.complete {
+    width: 100%;
+}
+
+>>>>>>> Product
 }
