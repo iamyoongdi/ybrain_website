@@ -67,7 +67,7 @@ class App extends Component {
     if (this.state.isMobileMenuOpen === false) return null
     return (
       <div className='mobile-menu'>
-        <img className='mobile-menu-close-button' alt='' src={'../../assets/close.svg'} onClick={this.closeMobileMenu} />
+        <img className='mobile-menu-close-button' alt='' src={require('../../assets/close.svg')} onClick={this.closeMobileMenu} />
         <Link to={routeString.HOME} onClick={this.closeMobileMenu}>
           <h2 className='mobile-menu-list'>HOME</h2>
         </Link>
