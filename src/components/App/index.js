@@ -4,6 +4,8 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import { translate } from 'react-i18next';
+
 import ScrollLock from 'react-scrolllock'
 
 import './style.css'
@@ -112,6 +114,13 @@ class App extends Component {
   }
 
   render () {
+    const { t, i18n } = this.props;
+
+    const changeLanguage = (lng) => {
+      console.log(`change language to ${lng}`)
+      i18n.changeLanguage(lng)
+    }
+
     return (
       <div className='App'>
         <Desktop>
@@ -119,6 +128,14 @@ class App extends Component {
             <div className='header-container'>
               <Link to={routeString.HOME}><img className='logo' alt={'logo'} src={require('../../assets/logo.svg')} /></Link>
               <ul className='menu'>
+                <li className='dropdown' onClick={() => changeLanguage('kr')}>
+                  <a to={routeString.ABOUT_US} className='menu-title'>KR</a>
+                  {/* <div className='dropdown-underbar' /> */}
+                </li>
+                <li className='dropdown' onClick={() => changeLanguage('en')}>
+                  <a to={routeString.ABOUT_US} className='menu-title'>EN</a>
+                  {/* <div className='dropdown-underbar' /> */}
+                </li>
                 <li className='dropdown'>
                   <Link to={routeString.ABOUT_US} className='menu-title'>ABOUT US</Link>
                   <div className='dropdown-underbar' />
@@ -191,7 +208,7 @@ class App extends Component {
           </div>
         </Mobile>
         <div className='container'>
-          <Route exact path={routeString.HOME} component={Home} />
+          <Route exact path={routeString.HOME} component={Home} language />
           <Route path={routeString.ABOUT_US} component={About} />
           <Route path={routeString.HISTORY} component={History} />
           <Route path={routeString.MECHANISM} component={Mechanism} />
@@ -205,10 +222,11 @@ class App extends Component {
         </div>
         <div className='App-footer'>
           <p>대표이사 이기원   I   COPYRIGHT ⓒ YBRAIN, INC, ALL RIGHTS RESERVED.</p>
+          <p>{t('advice')}</p>
         </div>
       </div>
     )
   }
 }
 
-export default App
+export default translate('translations')(App)
