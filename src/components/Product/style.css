@@ -25,11 +25,16 @@
     padding: 30px;
 }
 
-.text-hospital-container {
-    float: left;
+/* .text-hospital-container {
+    float: right; 
     box-sizing: border-box;
     width: 50%;
     padding: 30px;
+    padding-top: 1100px;
+    position: absolute; 
+    top: 40%;
+    left: 0;
+    background: inherit;
 }
 
 .text-patient-container {
@@ -44,7 +49,7 @@
     box-sizing: border-box;
     width: 50%;    
     padding: 30px;
-}
+} */
 
 
 /* SAFETY&EFFICACY */
@@ -93,8 +98,53 @@
 
 /* USE */
 
+.oval {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+}
 
+.four-thumbnails {
+    box-sizing: border-box;
+    width: 100%;
+    /* position: absolute; 
+    margin-top: -400px;
+    padding-bottom: 160px;  */
+}
 
+.station {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: -220px;
+    left: 0px; */
+}
+
+.module {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: -250px;
+    left: 500px; */
+}
+
+.band {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: 200px;
+    left: 0px; */
+}
+
+.complete {
+    box-sizing: border-box;
+    width: 50%;
+    /* position: absolute;
+    top: 170px;
+    left: 500px; */
+}
 
 
 @media screen and (max-width: 768px) {
@@ -154,5 +204,27 @@
 }
 
 /* USE */
+
+.four-thumbnails {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 30px;
+}
+
+.station {
+    width: 100%;
+}
+
+.module {
+    width: 100%;
+}
+
+.band {
+    width: 100%;
+}
+
+.complete {
+    width: 100%;
+}
 
 }
