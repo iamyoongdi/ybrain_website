@@ -1,0 +1,125 @@
+/* PURPOSE */
+
+
+.purpose-bg {
+    box-sizing: border-box;
+    width: 100%;
+    /* position: relative; */
+    margin-bottom: -190px;
+}
+
+.purpose-texts-contatiner {
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 100%; 
+    padding: 30px;
+}
+
+
+
+/* FEATURE */
+
+.feature {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 30px;
+}
+
+/* SAFETY&EFFICACY */
+
+.text-safety-contatiner {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: left;
+    color: #00afdb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 80px;
+}
+
+.madrs-graph-comp {
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.madrs-texts-contatiner {
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.text-safety-contatiner {
+    box-sizing:border-box;
+    width: 50%;
+    padding-right: 60px;
+}
+
+.text-efficacy-contatiner {
+    box-sizing:border-box;
+    width: 50%;
+    padding-right: 60px;
+}
+
+
+/* USE */
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/* PURPOSE */
+
+.purpose-texts-contatiner {
+    clear: both;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* FEATURE */
+
+.feature{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+}    
+
+
+/* SAFETY&EFFICACY */
+
+    .madrs-graph-comp {
+        width: 100%;
+        padding: 30px;
+        padding-bottom: 100px;
+}
+
+    .madrs-texts-contatiner {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 30px;
+}
+
+    .text-safety-contatiner {
+        box-sizing:border-box;
+        width: 100%;
+
+}
+
+    .text-efficacy-contatiner {
+        box-sizing:border-box;
+        width: 100%;
+
+}
+
+/* USE */
+
+}
