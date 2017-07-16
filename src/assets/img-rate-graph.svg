@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="375" viewBox="0 0 335 375">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#D1D1D1">
+            <path d="M29 97.5h306M29 158.5h306M29 219.5h306M29 280.5h306M29 341.5h306"/>
+        </g>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="7" y="349">0</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="3" y="288">20</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="3" y="227">40</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="3" y="165">60</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="3" y="104">80</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="0" y="74">(%)</tspan>
+        </text>
+        <path fill="#00AFDB" d="M73 245h24v97.112H73z"/>
+        <path fill="#D8D8D8" d="M117 197h24v145.454h-24z"/>
+        <path fill="#00AFDB" d="M201 175h24v167.045h-24z"/>
+        <path fill="#D8D8D8" d="M245 119h24v222h-24z"/>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="85" y="376">Remission</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="73" y="235">33%</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="118" y="187">49%</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="202" y="165">56%</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="246" y="109">72%</tspan>
+        </text>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(-1 -4)">
+            <tspan x="206" y="376">Responder</tspan>
+        </text>
+        <path fill="#00AFDB" d="M76 0h10v10H76z"/>
+        <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(76 -4)">
+            <tspan x="30" y="14">tDCS</tspan>
+        </text>
+        <g>
+            <text fill="#000" font-family="SourceHanSansKR-Medium, Source Han Sans KR" font-size="12" font-weight="400" transform="translate(186 -4)">
+                <tspan x="30" y="14">Satraline</tspan>
+            </text>
+            <path fill="#D8D8D8" d="M186 0h10v10h-10z"/>
+        </g>
+    </g>
+</svg>

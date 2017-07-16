@@ -1,0 +1,158 @@
+
+/*COMMON*/
+
+.company-title{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Poppins;
+    line-height: 96px;
+}
+
+.company-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+.about-us-company {
+    padding-bottom: 230px;
+    width:100%;
+}
+
+.timeline {
+    box-sizing: border-box;
+    padding: 10px;
+    width:100%;
+    margin-bottom: -162px;
+    padding-top: 230px;
+}
+
+/*MISSION*/
+
+.mission {
+    padding-top: 254px;
+    float: left;
+    box-sizing: border-box;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.mission-text {
+    box-sizing: border-box;
+    padding-left: 30px;
+    width:50%;
+    float: right;
+}
+
+.mission-image {
+    width: 50%;
+    float: right;
+}
+
+
+
+.bar {
+    float: left;
+}
+
+.mission-title {
+    clear: both;
+    float: left;
+    display: inline-block;
+    font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+    text-align: left;
+	color: #00afdb;
+}
+
+.mission-contents {
+    float:left;
+    clear: both;
+    display: inline-block;
+    line-height: 1.5;
+	height: 120px;
+	font-size: 16px;
+	color: #000000;
+    text-align: left;
+}
+
+
+/*VISION*/
+
+.vision {
+    padding-top: 140px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.vision-image {
+    float: left;
+    width: 50%;
+}
+
+.vision-text {
+    box-sizing: border-box;
+    float: right;
+    padding-left: 20px;
+    /* margin-left: 30px; */
+    width: 50%;
+}
+
+.bar {
+    float: left;
+}
+
+.vision-title {
+    display: inline-block;
+    clear: both;
+    float: left;
+    font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+    text-align: left;
+	color: #00afdb;
+}
+
+.vision-contents {
+    display: inline-block;
+    float: left;
+    clear:both;
+    line-height: 1.5;
+	/* height: 120px; */
+	font-size: 16px;
+	color: #000000;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+    .mission-text {
+        width:100%;
+    }
+    .mission-image {
+        width:100%;
+        clear:both;
+    }
+    .vision-image{
+       width: 100%;
+    }
+    .vision-text {
+      width: 100%;
+      clear:both;
+    }
+
+    .company-title{
+      font-size: 70px;
+    }
+
+    
+
+  
+}

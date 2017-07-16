@@ -7,6 +7,7 @@ body {
 .inner-container{
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 
 .main-img {
@@ -19,11 +20,12 @@ body {
   max-width: 1000px;
   display: inline-block;
   vertical-align: middle;
-}
+  padding-bottom: 160px;
+  }
 
 .main-container-header {
   display: block;
-  float: right;
+  float: left;
   padding: 30px;
 }
 
@@ -38,19 +40,26 @@ body {
   margin: 0;
   float: left;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: medium;
+  padding-bottom: 200px;
   color: #465962;
 }
 
 .main-container-content {
   clear: both;
-  height: 1000px;
-  background-color: #9b9b9b;
+  height: 100%;
+  width:100%;
 }
 
 @media screen and (max-width: 768px) {
   .main-container-title {
     font-size: 12px;
+  }
+
+  .main-container-content {
+    clear: both;
+    height: 100%;
+    padding-bottom: 80px;
   }
 
 }

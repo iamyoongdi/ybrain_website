@@ -1,0 +1,159 @@
+.contact-map {
+    width: 100%;
+    height: 385px;
+    padding-bottom: 200px;
+}
+
+.mapmarker{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+.contact-inner-container{
+    background-color: #F5F5F5;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .main-container {
+        max-width: 768px;
+    }
+
+.contact-left{
+    float: left;
+    width: 50%;
+}
+
+.contact-right{
+    float: left;
+    width: 50%;
+}
+
+.contact-title {
+    clear: both;
+    font-size: 16px;
+    color: #00afdb;
+    font-weight: 500;
+    margin: 0px;
+    text-align: left;
+    left: 0;
+}
+
+.contact-content {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+
+.contact form {
+    padding-top: 20px;
+}
+
+.contact-input {
+    float: left;
+    border: solid 1px #d1d1d1;
+    border-radius: 1px;
+    line-height: 200x;
+    margin-bottom: 14px;
+    padding-left: 18px;
+    font-size: 14px;
+    background-color: #fcfcfc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.contact .first {
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.contact .half {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+
+.socialmedia-container {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 30px;
+}
+
+.socialmedia{
+    margin-right: 20px; 
+    margin-top: 12px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.contact textarea{
+    padding-top: 10px;
+    line-height: 25px;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.contact-submit {
+    margin-top: 14px;
+    border: none;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #00afdb;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        display: inline-block;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 36px;
+    }
+    .contact-left{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .contact-right{
+        clear: both;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .contact-input {
+        margin-bottom: 10px;
+
+    }
+
+    .contact .first {
+        padding-right: 0px;
+    }
+
+    .contact .half {
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+    }
+
+}

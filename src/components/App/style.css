@@ -103,7 +103,7 @@
 .dropdown-underbar{
   position: relative;
   top:21px;
-  margin: 0px -13px;
+  margin: 1px -13px;
   z-index: 15;
   display: none;
   height:4px;
@@ -214,9 +214,7 @@
   background-color: #000;
   height: 50px;
   padding-top: 24px;
-  text-align: center;
   color: #ffffff;
-
   line-height: normal;
 }
 
@@ -225,6 +223,7 @@
   vertical-align: middle;
   line-height: 28px;
   margin: 0;
+  text-align: center;
 }
 
 

@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react';
 
 import './style.css';
 
-const Marker = () => <img className='mapmarker' alt='' src={require('../../assets/ybrain-symbol@2x.png')} />;
+const Marker = () => <img className='mapmarker' alt='' src={require('../../assets/map-marker.svg')} />;
 
 class GoogleMap extends Component {
   static defaultProps = {
