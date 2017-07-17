@@ -7,6 +7,7 @@ import GoogleMap from '../GoogleMap'
 import $ from 'jquery'
 
 const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />
+const Desktop = ({ children }) => <Responsive minWidth={768} children={children} />
 
 class Home extends Component {
   constructor (props) {
@@ -69,19 +70,43 @@ class Home extends Component {
         original: require('../../assets/landing_3.png')
       }
     ]
+    const mobileImages = [
+      {
+        original: require('../../assets/landing_1_mobile.png')
+      },
+      {
+        original: require('../../assets/landing_2_mobile.png')
+      },
+      {
+        original: require('../../assets/landing_3_mobile.png')
+      }
+    ]
 
     return (
       <section>
         <div className='ig'>
-          <ImageGallery
-            items={images}
-            slideInterval={2000}
-            showThumbnails={false}
-            showBullets
-            showFullscreenButton={false}
-            showPlayButton={false}
-            onImageLoad={this.handleImageLoad}
-          />
+          <Desktop>
+            <ImageGallery
+              items={images}
+              slideInterval={2000}
+              showThumbnails={false}
+              showBullets
+              showFullscreenButton={false}
+              showPlayButton={false}
+              onImageLoad={this.handleImageLoad}
+            />
+          </Desktop>
+          <Mobile>
+            <ImageGallery
+              items={mobileImages}
+              slideInterval={2000}
+              showThumbnails={false}
+              showBullets
+              showFullscreenButton={false}
+              showPlayButton={false}
+              onImageLoad={this.handleImageLoad}
+            />
+          </Mobile>
         </div>
         <div className='contact'>
           <div className='contact-container'>
