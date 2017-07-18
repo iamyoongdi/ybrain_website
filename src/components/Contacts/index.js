@@ -75,7 +75,7 @@ class Contacts extends Component {
           </div>
         </Mobile>
         <div className='main-container'>
-          <div className='contact-left'>
+          <div className='contacts-left'>
             <p className='contact-title'>Follow Us</p>
             <div className='social-media-container'>
               <a className='socialmedia' href='https://www.facebook.com/ybrain.inc/' target='_blank' rel='noopener noreferrer'>
@@ -100,11 +100,13 @@ class Contacts extends Component {
             <p className='contact-title'>Facility</p>
             <p className='contact-content'>대전광역시 유성구 죽동로 71 2층 202호</p>
           </div>
-          <div className='contact-right'>
+          <div className='contacts-right'>
             <p className='contact-title'>Contact Us</p>
             <form onSubmit={this.handleSubmit}>
               <div className='half first'>
-                <input className='contact-input' placeholder='이름' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
+                <div className='name-contatiner'>
+                  <input className='contact-input' placeholder='이름' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
+                </div>
               </div>
               <div className='half'>
                 <input className='contact-input' placeholder='국가'name='region'type='text' value={this.state.region} onChange={this.handleInputChange} />

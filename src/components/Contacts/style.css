@@ -20,17 +20,36 @@
 }
 
 
-@media screen and (max-width: 1000px) and (min-width: 768px) {
-    .main-container {
-        max-width: 768px;
-    }
+.contact {
+    display: inline-block;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top:200px;
+}
 
-.contact-left{
+.contact-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 71px;
+    padding-bottom: 140px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+.contact-container {
+    max-width: 768px;
+}
+}
+
+.contacts-left{
     float: left;
     width: 50%;
 }
 
-.contact-right{
+.contacts-right{
     float: left;
     width: 50%;
 }
@@ -40,7 +59,6 @@
     font-size: 16px;
     color: #00afdb;
     font-weight: 500;
-    margin: 0px;
     text-align: left;
     left: 0;
 }
@@ -57,11 +75,15 @@
     padding-top: 20px;
 }
 
+.name-contatiner {
+    padding-top: 10px;
+}
+
 .contact-input {
     float: left;
     border: solid 1px #d1d1d1;
     border-radius: 1px;
-    line-height: 200x;
+    line-height: 42px;
     margin-bottom: 14px;
     padding-left: 18px;
     font-size: 14px;
@@ -70,6 +92,13 @@
     box-sizing: border-box;
 }
 
+/* .contacts-right .textarea {
+    padding-top: 10px;
+    line-height: 25px;
+    width: 100%;
+    height: 420px;
+    box-sizing: border-box;
+} */
 
 .contact .first {
     box-sizing: border-box;
@@ -78,30 +107,32 @@
 
 .contact .half {
     box-sizing: border-box;
+
     width: 50%;
     float: left;
 }
 
 .socialmedia-container {
     width: 100%;
-    height: 36px;
+    height:36px;
     margin-bottom: 30px;
 }
 
 .socialmedia{
     margin-right: 20px; 
     margin-top: 12px;
-    padding-bottom: 30px;
     float: left;
 }
 
-.contact textarea{
+
+/* .contact textarea{
     padding-top: 10px;
     line-height: 25px;
     width: 100%;
-    height: 400px;
+    height: 420px;
     box-sizing: border-box;
-}
+} */
+
 
 .contact-submit {
     margin-top: 14px;
@@ -116,23 +147,22 @@
     background-color: #00afdb;
 }
 
-}
 
 @media screen and (max-width: 768px) {
     .contact-container {
         display: inline-block;
         width: 100%;
-        padding-top: 100px;
+        padding-top: 51px;
         padding-bottom: 36px;
     }
-    .contact-left{
+    .contacts-left{
         padding-left: 30px;
         padding-right: 30px;
         width: 100%;
         float: left;
         box-sizing: border-box;
     }
-    .contact-right{
+    .contacts-right{
         clear: both;
         padding-left: 30px;
         padding-right: 30px;
@@ -143,7 +173,14 @@
 
     .contact-input {
         margin-bottom: 10px;
+    }
 
+    .contact textarea{
+        padding-top: 10px;
+        line-height: 25px;
+        width: 100%;
+        height: 420px;
+        box-sizing: border-box;
     }
 
     .contact .first {
@@ -156,4 +193,6 @@
         float: left;
     }
 
+
 }
+

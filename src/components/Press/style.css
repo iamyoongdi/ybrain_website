@@ -24,13 +24,13 @@
 }
 .press-thumbnails-container{
     top: 12px;
-    text-align: left;
 }
 
 .press-thumnail{
-    margin-right: -12px;
-    margin-top: 12px;
+    margin-right: -8px;
+    margin-top: 8px;
 }
+
 
 @media screen and (max-width: 1000px) and (min-width: 768px) {
     .press-container{
