@@ -46,6 +46,12 @@ class Press extends Component {
               <a className='press-thumnail' href='http://news.hankyung.com/article/201703135023i?nv=o' target='_blank' rel='noopener noreferrer'>
                 <img alt={'press-hk'} src={require('../../assets/press-4.png')} />
               </a>
+              <a className='press-thumnail' href='http://www.fox26houston.com/news/fox-content-hub/262749386-story' target='_blank' rel='noopener noreferrer'>
+                <img alt={'press-fox'} src={require('../../assets/press-5.png')} />
+              </a>
+              <a className='press-thumnail' href='http://news.mt.co.kr/mtview.php?no=2017060211120341949&outlink=1&ref=http%3A%2F%2Fsearch.naver.com' target='_blank' rel='noopener noreferrer'>
+                <img alt={'press-mt'} src={require('../../assets/press-6.png')} />
+              </a>
             </div>
           </div>
         </div>

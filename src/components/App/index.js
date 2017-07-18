@@ -128,14 +128,14 @@ class App extends Component {
             <div className='header-container'>
               <Link to={routeString.HOME}><img className='logo' alt={'logo'} src={require('../../assets/logo.svg')} /></Link>
               <ul className='menu'>
-                <li className='dropdown' onClick={() => changeLanguage('kr')}>
+                 {/* <li className='dropdown' onClick={() => changeLanguage('kr')}>
                   <a to={routeString.ABOUT_US} className='menu-title'>KR</a>
-                  {/* <div className='dropdown-underbar' /> */}
-                </li>
-                <li className='dropdown' onClick={() => changeLanguage('en')}>
+                   <div className='dropdown-underbar' /> 
+                </li> */}
+                {/* <li className='dropdown' onClick={() => changeLanguage('en')}>
                   <a to={routeString.ABOUT_US} className='menu-title'>EN</a>
-                  {/* <div className='dropdown-underbar' /> */}
-                </li>
+                   <div className='dropdown-underbar' /> 
+                </li>  */}
                 <li className='dropdown'>
                   <Link to={routeString.ABOUT_US} className='menu-title'>ABOUT US</Link>
                   <div className='dropdown-underbar' />
