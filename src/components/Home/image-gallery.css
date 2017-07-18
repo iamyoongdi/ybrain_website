@@ -232,6 +232,7 @@
     display: inline-block;
     margin: 0 6px;
     outline: none;
+    padding: 1.5px;
  }
     @media (max-width: 768px) {
       .image-gallery-bullets .image-gallery-bullet {
@@ -239,7 +240,7 @@
         padding: 3px; } }
     @media (max-width: 480px) {
       .image-gallery-bullets .image-gallery-bullet {
-        padding: 2.7px; } }
+        padding: 1.5px; } }
     .image-gallery-bullets .image-gallery-bullet.active {
       background: #00afdb; }
 
