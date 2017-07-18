@@ -118,7 +118,7 @@ class Contacts extends Component {
                 <input className='contact-input' placeholder='소속기관' name='org'type='text' value={this.state.org} onChange={this.handleInputChange} />
               </div>
               <input className='contact-input' placeholder='제목' name='subject'type='text' value={this.state.subject} onChange={this.handleInputChange} />
-              <textarea className='contact-input' placeholder='메세지를 남겨주세요' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
+              <textarea className='contact-input textarea' placeholder='메세지를 남겨주세요' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
               <input className='contact-submit'type='submit' value='Send' />
             </form>
           </div>
