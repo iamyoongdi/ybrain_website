@@ -92,7 +92,7 @@ class Contacts extends Component {
               </a>
             </div>
             <p className='contact-title'>General Inquiry</p>
-            <p className='contact-content'>inquiries@ybrain.com  I   +82 0321234567</p>
+            <p className='contact-content'>inquiries@ybrain.com  I   +82 03280601470</p>
             <p className='contact-title'>Career</p>
             <p className='contact-content'>career@ybrain.com</p>
             <p className='contact-title'>R&D Center</p>
