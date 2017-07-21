@@ -108,8 +108,9 @@
     box-sizing: border-box;
     width: 100%;
     background-image: url('../../assets/icOvalGradient.svg');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center center;
+    
 /*require('../../assets/icOvalGradient.svg')*/
     /* position: absolute; 
     margin-top: -400px;
