@@ -162,8 +162,7 @@
 
 .mards-texts-container {
     box-sizing: border-box;
-    padding: 30px;
-    padding-bottom: 100px;
+    padding: 10px;
 }
 
 .mards-contents-title {
@@ -173,8 +172,10 @@
 }
 
 .mards-contents-text {
-    padding-top: 40px;
+    padding-top: 60px;
     text-align: left;
+    font-weight: bold;
+    font-size: 17px;
     line-height: 1.75;
 }
 
@@ -196,9 +197,16 @@
 
 .side-effect-table {
     box-sizing: border-box;
-    width: 50%;
-    padding-top: 30px;
-    padding: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reference {
+    text-align: left;
+    font-size: 12px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 768px) {
@@ -250,7 +258,16 @@
     .side-effect-table {
         box-sizing: border-box;
         width: 100%;
-        padding-top: 40px;
+        padding-top: 10px;
 }
+
+
+    .mards-contents-text {
+        padding-top: 20px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 1.75;
+    }
 
 }

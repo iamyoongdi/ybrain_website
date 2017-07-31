@@ -28,11 +28,9 @@ class Press extends Component {
           </div>
 
           <div className='main-container-content'>
-            {/* <div className= "video"> */}
             <div className='videoWrapper'>
               <iframe src='https://www.youtube.com/embed/VHp1tQXx6rc?ecver=1' allowFullScreen />
             </div>
-            {/* </div> */}
             <div className='press-thumbnails-container'>
               <a className='press-thumnail' href='http://news.mk.co.kr/newsRead.php?&year=2017&no=229607' target='_blank' rel='noopener noreferrer'>
                 <img alt={'press-mk'} src={require('../../assets/press-1.png')} />

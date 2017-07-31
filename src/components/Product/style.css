@@ -74,6 +74,7 @@
     float: right;
     box-sizing: border-box;
     width: 50%;
+    padding-right: 30px;
 }
 
 .madrs-texts-contatiner {
@@ -84,13 +85,15 @@
 .text-safety-contatiner {
     box-sizing:border-box;
     width: 50%;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .text-efficacy-contatiner {
     box-sizing:border-box;
     width: 50%;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -149,6 +152,10 @@
     left: 500px; */
 }
 
+.legal-notice{
+    padding-top: 50px;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -192,7 +199,7 @@
     .madrs-texts-contatiner {
         box-sizing: border-box;
         width: 100%;
-        padding: 30px;
+        padding: 20px;
 }
 
     .text-safety-contatiner {
@@ -233,6 +240,10 @@
 
 .complete {
     width: 100%;
+}
+
+.legal-notice{
+    padding: 30px;
 }
 
 }

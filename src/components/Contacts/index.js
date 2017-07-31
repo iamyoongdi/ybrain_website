@@ -97,7 +97,7 @@ class Contacts extends Component {
             <p className='contact-content'>career@ybrain.com</p>
             <p className='contact-title'>R&D Center</p>
             <p className='contact-content'>경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
-            <p className='contact-title'>Facility</p>
+            <p className='contact-title'>HQ / Factory</p>
             <p className='contact-content'>대전광역시 유성구 죽동로 71 2층 202호</p>
           </div>
           <div className='contacts-right'>

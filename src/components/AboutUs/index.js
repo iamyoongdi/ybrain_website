@@ -38,7 +38,7 @@ class AboutUs extends Component {
               <div className='mission-text'>
                 <hr className='bar' width='70px;' height='2px;' border='solid 2px' color='#00afdb' align='left' />
                 <p className='mission-title'>MISSION</p>
-                <p className='mission-contents'>와이브레인은 뇌 과학을 통해서 헬스케어 혁신을 이루고자 합니다.<br />우리는 정신질환 환자들을 위한 치료, 진단, 관리를 모두 포함하는, 혁신이 될 헬스케어 솔루션을 개발하고 있습니다. 우리가 가진 기술로 더 많은 환자들의 일상의 질을 개선하고, 치료기간동안 더 나은 경험을 제공하고자 합니다.</p>
+                <p className='mission-contents'>와이브레인은 뇌 과학을 통해서 헬스케어 혁신을 이루고자 합니다.<br />우리는 정신질환 환자들을 위한 치료, 진단, 관리를 모두 포함하는 헬스케어 솔루션을 개발하고 있습니다. 우리가 가진 기술로 더 많은 환자들의 일상의 질을 개선하고, 치료기간동안 더 나은 경험을 제공하고자 합니다.</p>
               </div>
             </div>
             <div className='vision'>
@@ -46,7 +46,7 @@ class AboutUs extends Component {
               <div className='vision-text'>
                 <hr className='bar' width='70px;' height='2px;' border='solid 2px' color='#00afdb' align='left' />
                 <p className='vision-title'>VISION</p>
-                <p className='vision-contents'>우리는 혁신을 통해서 가치를 창출합니다. <br />신경과학, 기기개발, 컴퓨터 공학등 다양한 분야를 기반으로 언제 어디서나 환자들의 뇌 기능 상태를 분석, 저장, 강화, 관리하는 혁신적인 솔루션을 개발합니다. 우리는 협력을 통해 진보함으로써 우리가 이루고자 하는 가치를 창출해냅니다. 와이브레인이 가진 기업문화, 즉 협력을 통한 진보는 모두 회사 구성원들과 Ybrain의 파트너에 의한 것이며 그것이 우리가 함께 일하는 방식입니다.</p>
+                <p className='vision-contents'>와이브레인은 혁신을 통해서 가치를 창출합니다. <br />뇌과학, 신소재, 의공학, 전자 공학, 컴퓨터 공학 등 다양한 분야의 전문성을 기반으로 언제 어디서나 환자들의 뇌 기능 상태를 수집, 저장, 분석, 강화, 관리하는 혁신적인 솔루션을 개발합니다. 와이브레인은 협력을 통해 진보함으로써 우리가 이루고자 하는 가치를 창출합니다. 와이브레인이 가진 기업문화, 즉 협력을 통한 진보는 모든 회사 구성원들과 Ybrain의 파트너를 위한 것이며 그것이 우리가 함께 일하는 방식입니다.</p>
               </div>
             </div>
           </div>

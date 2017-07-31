@@ -30,11 +30,11 @@ class Purpose extends Component {
           <div className='purpose-texts-contatiner'>
             <div className='text-mind-contatiner'>
               <p className='title' >우울증 치료기기 'MINDD'</p>
-              <p className='contents' >경두개 전기 자극 기술을 사용화한 제품으로 미세한 전기 자극을 통해 <br />뇌 신경을 조절, 우울증과 같은 정신 질환을 개선해주는 제품입니다.</p>
+              <p className='contents' >미세한 전기 자극으로 뇌 기능을 조절하는 뉴로모듈레이션 기술을 활용하여 <br />신경 정신 질환의 개선에 도움을 주는 제품입니다.</p>
             </div>
             <div className='text-value-contatiner'>
               <p className='title' >환자에게 보다 가치있는 치료를 제공합니다.</p>
-              <p className='contents' >실제 정신질환이 있는 환자들에게 보다 가치있는 치료를 제공하기위해 <br />매 순간 실제 의료 현장에서 부족한 부분을 찾아내고, 끊임없이 연구하고 개발합니다.</p>
+              <p className='contents' >실제 환자들에게 보다 가치있는 치료를 제공하기위해 <br />매 순간 의료 현장에서 필요로 하는 것들을 찾아내고 끊임없이 연구 개발합니다.</p>
             </div>
             <img className='purpose-bg' alt='patient' src={require('../../assets/contents-product-purpose.png')} />
           </div>
@@ -62,7 +62,7 @@ class Features extends Component {
             <h2 className='main-container-title'>Features</h2>
           </div>
           <div className='main-container-content' />
-          <img className='features' alt='product-feature' src={require('../../assets/imgProductFeature.png')} />
+          <img className='features' alt='product-feature' src={require('../../assets/img-product-features.png')} />
           {/* <div className='text-hospital-container'>
               <p className='title'>병원 중심의 재택 연계 치료</p>
               <p className='contents'>제품 ‘MIND’ 는 매일 병원을 방문하기 어려운 환자분들에게 보다 나은 치료 환경을 제공하기 위해 웨어러블 기기로 개발되었습니다. 의사선생님의 감독하에 재택 연계 치료가 가능합니다.</p>
@@ -98,15 +98,15 @@ class Es extends Component {
             <h2 className='main-container-title'>Efficacy & Safety</h2>
           </div>
           <div className='main-container-content' />
-          <img className='madrs-graph-comp' alt='madrs' src={require('../../assets/madrs_comp.svg')} />
+          <img className='madrs-graph-comp' alt='madrs' src={require('../../assets/madrs_expanded.svg')} />
           <div className='madrs-texts-contatiner'>
             <div className='text-safety-contatiner'>
               <p className='title' >안전성</p>
-              <p className='contents' >국내에서 연구, 개발, 생산을 한 제품으로 국내 메이저 대학병원 7곳에서 96명을 대상으로 직접 허가 임상을 실시한 제품이므로 안전성과 효능성 모두 입증받았습니다.</p>
+              <p className='contents' >국내에서 연구, 개발, 생산한 제품으로 국내 대학병원 7곳에서 96명을 대상으로 3상 임상을 실시하여 안전성과 효능성 모두 입증하였습니다.</p>
             </div>
             <div className='text-efficacy-contatiner'>
               <p className='title' >신뢰성</p>
-              <p className='contents' >제품 ‘MINDD’ 는 저희 와이브레인에서 연구, 개발, 생산을 모두 진행합니다. 카이스트 출신의 석/박사 및 뇌공학박사, 의료전문가 등 신뢰할 수 있는 전문가들로 구성되어 있습니다. 또한, ‘MIND’ 가 가지고 있는 경두개 전기 자극 기술은 국내뿐만 아니라, 해외에서도 많은 연구와 임상이 이루어진 기술로서 이에 대한 신뢰성은 이미 국내외로 모두 입증되어있습니다.</p>
+              <p className='contents' >제품 ‘MINDD’ 는 저희 와이브레인에서 연구, 개발, 생산을 모두 진행합니다. 카이스트 출신의 석/박사 및 뇌공학자, 의료전문가 등 신뢰할 수 있는 전문가들로 구성되어 있습니다. 또한, ‘MINDD’ 가 가지고 있는 경두개 전기 자극 기술은 국내뿐만 아니라, 해외에서도 많은 연구와 임상이 이루어진 기술로서 기술의 유용성과 안전성은 이미 국내외로 입증되어있습니다.</p>
             </div>
           </div>
         </div>
@@ -138,6 +138,7 @@ class Use extends Component {
             <img className='band' alt='' src={require('../../assets/band.png')} />
             <img className='complete' alt='' src={require('../../assets/complete.png')} />
           </div>
+          <p className='legal-notice'>※ 이 제품은 "의료기기"이며, "사용상의 주의사항"과 "사용방법"을 잘 읽고 사용하십시오. (허가번호 : 제허 17-135호)</p>
         </div>
         <CommonContact />
       </div>
