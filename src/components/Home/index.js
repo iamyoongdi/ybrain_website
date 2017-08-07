@@ -127,7 +127,7 @@ class Home extends Component {
                 </a>
               </div>
               <p className='contact-title'>General Inquiry</p>
-              <p className='contact-content'>inquiries@ybrain.com  I   +82 03280601470</p>
+              <p className='contact-content'>inquiries@ybrain.com  I   +82 3180601470</p>
               <p className='contact-title'>Location</p>
               <p className='contact-content'>#802 8th Fl., Pangyo Digital Center C-dong, 242, Pangyo-ro,<br />Bungdang-gu, Seongnam-si, Gyeonggi-do, 13487, Korea<br /><br />경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
               <div className='home-map'>
