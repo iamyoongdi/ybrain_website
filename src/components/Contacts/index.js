@@ -41,7 +41,7 @@ class Contacts extends Component {
   handleSubmit (event) {
     $.ajax({
       type: 'POST',
-      url: 'https://script.google.com/macros/s/AKfycbzhUDGTD2rJXOLc78amBQIxyq97jY7k2nxI_VX0cjG1t9j5htp0/exec',
+      url: 'https://script.google.com/macros/s/AKfycbwuMpBJRppui5QF0ekDMUxzSiXi43z6ygjywFtLclmQHZuzo18/exec',
       data: {
         name: this.state.name,
         region: this.state.region,
