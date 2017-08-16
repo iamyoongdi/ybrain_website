@@ -38,7 +38,7 @@ class Home extends Component {
   handleSubmit (event) {
     $.ajax({
       type: 'POST',
-      url: 'https://script.google.com/macros/s/AKfycbwuMpBJRppui5QF0ekDMUxzSiXi43z6ygjywFtLclmQHZuzo18/exec',
+      url: 'https://script.google.com/macros/s/AKfycbzWlaF20LFY1BgSQEW6JnLMe45vK1VyHaf9bURukk4MJ7AWRL0/exec',
       data: {
         name: this.state.name,
         region: this.state.region,
