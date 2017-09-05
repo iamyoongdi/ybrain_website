@@ -43,7 +43,7 @@ class Home extends Component {
         name: this.state.name,
         region: this.state.region,
         email: this.state.email,
-        org: this.state.org,
+        org: this.state.dorg,
         subject: this.state.subject,
         content: this.state.content
       },
