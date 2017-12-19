@@ -3,6 +3,7 @@ import Responsive from 'react-responsive'
 
 import './style.css'
 import CommonContact from '../CommonContact'
+import { translate } from 'react-i18next'
 
 import mainImage from '../../assets/slideimgs-press.png'
 import mainImageMobile from '../../assets/slideimgs-press-mobile@2x.png'
@@ -13,6 +14,7 @@ const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} 
 
 class Press extends Component {
   render () {
+    const { t } = this.props
     return (
       <div className='inner-container'>
         <Desktop>
@@ -62,4 +64,4 @@ class Press extends Component {
   }
 }
 
-export default Press
+export default translate('translations')(Press)

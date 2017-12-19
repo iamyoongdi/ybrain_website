@@ -3,6 +3,7 @@ import Responsive from 'react-responsive'
 import ImageGallery from 'react-image-gallery'
 import './style.css'
 import './image-gallery.css'
+import { translate } from 'react-i18next'
 import GoogleMap from '../GoogleMap'
 import $ from 'jquery'
 
@@ -59,26 +60,27 @@ class Home extends Component {
   }
 
   render () {
+    const { t } = this.props
     const images = [
       {
-        original: require('../../assets/landing_1.png')
+        original: require(`../../assets${t('imageRoute')}/landing_1.png`)
       },
       {
-        original: require('../../assets/landing_2.png')
+        original: require(`../../assets${t('imageRoute')}/landing_2.png`)
       },
       {
-        original: require('../../assets/landing_3.png')
+        original: require(`../../assets${t('imageRoute')}/landing_3.png`)
       }
     ]
     const mobileImages = [
       {
-        original: require('../../assets/landing_1_mobile.png')
+        original: require(`../../assets${t('imageRoute')}/landing_1_mobile.png`)
       },
       {
-        original: require('../../assets/landing_2_mobile.png')
+        original: require(`../../assets${t('imageRoute')}/landing_2_mobile.png`)
       },
       {
-        original: require('../../assets/landing_3_mobile.png')
+        original: require(`../../assets${t('imageRoute')}/landing_3_mobile.png`)
       }
     ]
 
@@ -138,19 +140,19 @@ class Home extends Component {
               <p className='contact-title'>Contact Us</p>
               <form onSubmit={this.handleSubmit} method='POST' action='https://script.google.com/macros/s/AKfycbzhUDGTD2rJXOLc78amBQIxyq97jY7k2nxI_VX0cjG1t9j5htp0/exec'>
                 <div className='half first'>
-                  <input className='contact-input' placeholder='이름' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
+                  <input className='contact-input' placeholder='Name' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
                 </div>
                 <div className='half'>
-                  <input className='contact-input' placeholder='국가'name='region'type='text' value={this.state.region} onChange={this.handleInputChange} />
+                  <input className='contact-input' placeholder='Country'name='region'type='text' value={this.state.region} onChange={this.handleInputChange} />
                 </div>
                 <div className='half first'>
                   <input className='contact-input' placeholder='ybrain@email.com' name='email'type='text' value={this.state.email} onChange={this.handleInputChange} />
                 </div>
                 <div className='half'>
-                  <input className='contact-input' placeholder='소속기관' name='org'type='text' value={this.state.org} onChange={this.handleInputChange} />
+                  <input className='contact-input' placeholder='Affiliation' name='org'type='text' value={this.state.org} onChange={this.handleInputChange} />
                 </div>
-                <input className='contact-input' placeholder='제목' name='subject'type='text' value={this.state.subject} onChange={this.handleInputChange} />
-                <textarea className='contact-input' placeholder='메세지를 남겨주세요' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
+                <input className='contact-input' placeholder='Subject' name='subject'type='text' value={this.state.subject} onChange={this.handleInputChange} />
+                <textarea className='contact-input' placeholder='Leave a message here' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
                 <input className='contact-submit' type='submit' value='Send' />
               </form>
             </div>
@@ -166,4 +168,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default translate('translations')(Home)

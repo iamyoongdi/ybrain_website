@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import GoogleMap from '../GoogleMap'
 import './style.css'
+import { translate } from 'react-i18next'
 
 class CommonContact extends Component {
   render () {
+    const { t } = this.props
     return (
       <div className='common-contact'>
         <div className='common-contact-container'>
@@ -39,4 +41,4 @@ class CommonContact extends Component {
   }
 }
 
-export default CommonContact
+export default translate('translations')(CommonContact)

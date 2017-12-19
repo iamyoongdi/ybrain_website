@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './style.css'
 import CommonContact from '../CommonContact'
+import { translate } from 'react-i18next'
 
 import mainImage from '../../assets/slideimgs-press.png'
 import symbolImage from '../../assets/ybrain-symbol@3x.png'
@@ -62,6 +63,7 @@ class Contacts extends Component {
   }
 
   render () {
+    const { t } = this.props
     return (
       <div className='contact-inner-container'>
         <Desktop>
@@ -105,20 +107,20 @@ class Contacts extends Component {
             <form onSubmit={this.handleSubmit}>
               <div className='half first'>
                 <div className='name-contatiner'>
-                  <input className='contact-input' placeholder='이름' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
+                  <input className='contact-input' placeholder='Name' name='name' type='text' value={this.state.name} onChange={this.handleInputChange} />
                 </div>
               </div>
               <div className='half'>
-                <input className='contact-input' placeholder='국가'name='region'type='text' value={this.state.region} onChange={this.handleInputChange} />
+                <input className='contact-input' placeholder='Country'name='region'type='text' value={this.state.region} onChange={this.handleInputChange} />
               </div>
               <div className='half first'>
                 <input className='contact-input' placeholder='ybrain@email.com' name='email'type='text' value={this.state.email} onChange={this.handleInputChange} />
               </div>
               <div className='half'>
-                <input className='contact-input' placeholder='소속기관' name='org'type='text' value={this.state.org} onChange={this.handleInputChange} />
+                <input className='contact-input' placeholder='Affiliation' name='org'type='text' value={this.state.org} onChange={this.handleInputChange} />
               </div>
-              <input className='contact-input' placeholder='제목' name='subject'type='text' value={this.state.subject} onChange={this.handleInputChange} />
-              <textarea className='contact-input textarea' placeholder='메세지를 남겨주세요' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
+              <input className='contact-input' placeholder='Subject' name='subject'type='text' value={this.state.subject} onChange={this.handleInputChange} />
+              <textarea className='contact-input textarea' placeholder='Leave a message here' name='content'type='text' value={this.state.content} onChange={this.handleInputChange} />
               <input className='contact-submit'type='submit' value='Send' />
             </form>
           </div>
@@ -128,4 +130,4 @@ class Contacts extends Component {
   }
 }
 
-export default Contacts
+export default translate('translations')(Contacts)

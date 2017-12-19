@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="210px" viewBox="0 0 210 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>imgNonMedicine</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="009_web_technology_mechanismEN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-916.000000, -2219.000000)">
+        <g id="treatment" transform="translate(299.000000, 1943.000000)">
+            <g id="nonmedicine" transform="translate(618.000000, 277.000000)">
+                <g id="imgNonMedicine">
+                    <circle id="Oval-6" stroke="#C0F2FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,4" cx="104" cy="104" r="104"></circle>
+                    <circle id="Oval-6" stroke="#A3EDFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,4" cx="104" cy="104" r="94"></circle>
+                    <circle id="Oval-6" stroke="#65E0FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,4" cx="104" cy="104" r="84"></circle>
+                    <circle id="Oval-6" stroke="#00AFDB" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" stroke-dasharray="3,4" cx="104" cy="104" r="74"></circle>
+                    <text id="Non-Pharmaceutical-T" font-family="SourceHanSansKR-Bold, Source Han Sans KR" font-size="16" font-weight="bold" fill="#00AFDB">
+                        <tspan x="89.872" y="84">Non</tspan>
+                        <tspan x="44.008" y="108">Pharmaceutical </tspan>
+                        <tspan x="73.584" y="132">Therapy</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

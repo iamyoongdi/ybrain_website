@@ -3,6 +3,7 @@ import Responsive from 'react-responsive'
 
 import './style.css'
 import CommonContact from '../CommonContact'
+import { translate } from 'react-i18next'
 
 import mainImage from '../../assets/slideimgs-product.png'
 import mainImageMobile from '../../assets/slideimgs-product-mobile@2x.png'
@@ -11,8 +12,9 @@ import symbolImage from '../../assets/ybrain-symbol@3x.png'
 const Desktop = ({ children }) => <Responsive minWidth={768} children={children} />
 const Mobile = ({ children }) => <Responsive maxWidth={768} children={children} />
 
-class Purpose extends Component {
+class PurposePage extends Component {
   render () {
+    const { t } = this.props
     return (
       <div className='inner-container'>
         <Desktop>
@@ -29,12 +31,12 @@ class Purpose extends Component {
           <div className='main-container-content' />
           <div className='purpose-texts-contatiner'>
             <div className='text-mind-contatiner'>
-              <p className='title' >우울증 치료기기 'MINDD'</p>
-              <p className='contents' >미세한 전기 자극으로 뇌 기능을 조절하는 뉴로모듈레이션 기술을 활용하여 <br />신경 정신 질환의 개선에 도움을 주는 제품입니다.</p>
+              <p className='title' >{t('productPurposeSubject1')}</p>
+              <p className='contents' >{t('productPurposeContents1')} <br />{t('productPurposeContents2')} </p>
             </div>
             <div className='text-value-contatiner'>
-              <p className='title' >환자에게 보다 가치있는 치료를 제공합니다.</p>
-              <p className='contents' >실제 환자들에게 보다 가치있는 치료를 제공하기위해 <br />매 순간 의료 현장에서 필요로 하는 것들을 찾아내고 끊임없이 연구 개발합니다.</p>
+              <p className='title' >{t('productPurposeSubject2')}</p>
+              <p className='contents' >{t('productPurposeContents3')}  <br />{t('productPurposeContents4')} </p>
             </div>
             <img className='purpose-bg' alt='patient' src={require('../../assets/contents-product-purpose.png')} />
           </div>
@@ -46,8 +48,9 @@ class Purpose extends Component {
   }
 }
 
-class Features extends Component {
+class FeaturesPage extends Component {
   render () {
+    const { t } = this.props
     return (
       <div className='inner-container'>
         <Desktop>
@@ -62,7 +65,7 @@ class Features extends Component {
             <h2 className='main-container-title'>Features</h2>
           </div>
           <div className='main-container-content' />
-          <img className='features' alt='product-feature' src={require('../../assets/img-product-features.png')} />
+          <img className='features' alt='product-feature' src={require(`../../assets${t('imageRoute')}/img-product-features.png`)} />
           {/* <div className='text-hospital-container'>
               <p className='title'>병원 중심의 재택 연계 치료</p>
               <p className='contents'>제품 ‘MIND’ 는 매일 병원을 방문하기 어려운 환자분들에게 보다 나은 치료 환경을 제공하기 위해 웨어러블 기기로 개발되었습니다. 의사선생님의 감독하에 재택 연계 치료가 가능합니다.</p>
@@ -82,8 +85,9 @@ class Features extends Component {
   }
 }
 
-class Es extends Component {
+class EsPage extends Component {
   render () {
+    const { t } = this.props
     return (
       <div className='inner-container'>
         <Desktop>
@@ -98,15 +102,15 @@ class Es extends Component {
             <h2 className='main-container-title'>Efficacy & Safety</h2>
           </div>
           <div className='main-container-content' />
-          <img className='madrs-graph-comp' alt='madrs' src={require('../../assets/madrs_expanded.svg')} />
+          <img className='madrs-graph-comp' alt='madrs' src={require(`../../assets${t('imageRoute')}/madrs_expanded.svg`)} />
           <div className='madrs-texts-contatiner'>
             <div className='text-safety-contatiner'>
-              <p className='title' >안전성</p>
-              <p className='contents' >국내에서 연구, 개발, 생산한 제품으로 국내 대학병원 7곳에서 96명을 대상으로 3상 임상을 실시하여 안전성과 효능성 모두 입증하였습니다.</p>
+              <p className='title' >{t('productEsSubject1')}</p>
+              <p className='contents' >{t('productEsContents1')}</p>
             </div>
             <div className='text-efficacy-contatiner'>
-              <p className='title' >신뢰성</p>
-              <p className='contents' >제품 ‘MINDD’ 는 저희 와이브레인에서 연구, 개발, 생산을 모두 진행합니다. 카이스트 출신의 석/박사 및 뇌공학자, 의료전문가 등 신뢰할 수 있는 전문가들로 구성되어 있습니다. 또한, ‘MINDD’ 가 가지고 있는 경두개 전기 자극 기술은 국내뿐만 아니라, 해외에서도 많은 연구와 임상이 이루어진 기술로서 기술의 유용성과 안전성은 이미 국내외로 입증되어있습니다.</p>
+              <p className='title' >{t('productEsSubject2')}</p>
+              <p className='contents' >{t('productEsContents2')}</p>
             </div>
           </div>
         </div>
@@ -116,8 +120,9 @@ class Es extends Component {
   }
 }
 
-class Use extends Component {
+class UsePage extends Component {
   render () {
+    const { t } = this.props
     return (
       <div className='inner-container'>
         <Desktop>
@@ -133,18 +138,22 @@ class Use extends Component {
           </div>
           <div className='main-container-content' />
           <div className='four-thumbnails'>
-            <img className='station' alt='' src={require('../../assets/station.png')} />
-            <img className='module' alt='' src={require('../../assets/module.png')} />
-            <img className='band' alt='' src={require('../../assets/band.png')} />
-            <img className='complete' alt='' src={require('../../assets/complete.png')} />
+            <img className='station' alt='' src={require(`../../assets${t('imageRoute')}/station.png`)} />
+            <img className='module' alt='' src={require(`../../assets${t('imageRoute')}/module.png`)} />
+            <img className='band' alt='' src={require(`../../assets${t('imageRoute')}/band.png`)} />
+            <img className='complete' alt='' src={require(`../../assets${t('imageRoute')}/complete.png`)} />
           </div>
-          <p className='legal-notice'>※ 이 제품은 "의료기기"이며, "사용상의 주의사항"과 "사용방법"을 잘 읽고 사용하십시오. (허가번호 : 제허 17-135호)</p>
+          <p className='legal-notice'>{t('productUseLegal')}</p>
         </div>
         <CommonContact />
       </div>
     )
   }
 }
+const Purpose = translate('translations')(PurposePage)
+const Features = translate('translations')(FeaturesPage)
+const Es = translate('translations')(EsPage)
+const Use = translate('translations')(UsePage)
 
 export {
   Purpose,

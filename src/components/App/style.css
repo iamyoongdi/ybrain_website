@@ -45,6 +45,10 @@
   padding: 26px 26px;
   font-size: 14px;
 }
+a:hover {
+  cursor:pointer;
+ }
+ 
 
 .menu-title {
   text-decoration: none;
@@ -53,6 +57,12 @@
   font-size: 14px;
   text-align: center;
   color: #000000;
+}
+
+.globalization {
+  font-size: 12px;
+  width:15px;
+  margin-left: 15px;
 }
 
 .dropdown {

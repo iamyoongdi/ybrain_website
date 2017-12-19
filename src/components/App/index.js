@@ -67,6 +67,14 @@ class App extends Component {
 
   renderMobileMenu () {
     if (this.state.isMobileMenuOpen === false) return null
+
+    const { t, i18n } = this.props
+
+    const changeLanguage = (lng) => {
+      console.log(`change language to ${lng}`)
+      i18n.changeLanguage(lng)
+    }
+
     return (
       <div className='mobile-menu'>
         <img className='mobile-menu-close-button' alt='' src={require('../../assets/close.svg')} onClick={this.closeMobileMenu} />
@@ -108,6 +116,13 @@ class App extends Component {
         <Link to={routeString.CONTACTS} onClick={this.closeMobileMenu}>
           <h2 className='mobile-menu-list'>CONTACT</h2>
         </Link>
+        <div className='mobile-menu-seperator' />
+        <a onClick={() => changeLanguage('kr')}>
+          <h2 className='mobile-menu-list'>KR</h2>
+        </a>
+        <a onClick={() => changeLanguage('en')}>
+          <h2 className='mobile-menu-list'>EN</h2>
+        </a>
         <ScrollLock />
       </div>
     )
@@ -128,14 +143,6 @@ class App extends Component {
             <div className='header-container'>
               <Link to={routeString.HOME}><img className='logo' alt={'logo'} src={require('../../assets/logo.svg')} /></Link>
               <ul className='menu'>
-                 {/* <li className='dropdown' onClick={() => changeLanguage('kr')}>
-                  <a to={routeString.ABOUT_US} className='menu-title'>KR</a>
-                   <div className='dropdown-underbar' /> 
-                </li> */}
-                {/* <li className='dropdown' onClick={() => changeLanguage('en')}>
-                  <a to={routeString.ABOUT_US} className='menu-title'>EN</a>
-                   <div className='dropdown-underbar' /> 
-                </li>  */}
                 <li className='dropdown'>
                   <Link to={routeString.ABOUT_US} className='menu-title'>ABOUT US</Link>
                   <div className='dropdown-underbar' />
@@ -193,13 +200,21 @@ class App extends Component {
                 </li>
                 <li className='dropdown'>
                   <Link to={routeString.CONTACTS} className='menu-title'>CONTACT</Link>
-
                   <div className='dropdown-underbar' />
                 </li>
+                 <li>
+                  <a className='globalization' to={routeString.ABOUT_US} onClick={() => changeLanguage('kr')} >KR</a>
+                   {/* <div className='dropdown-underbar' />  */}
+                   <a  className='globalization' to={routeString.ABOUT_US} onClick={() => changeLanguage('en')} >EN</a>
+                   {/* <div className='dropdown-underbar' />  */}
+                </li>
+                <li style={{width:'10px'}}>                  
+                </li> 
               </ul>
             </div>
           </div>
         </Desktop>
+
         <Mobile>
           <div className='mobile-header'>
             <img onClick={this.openMobileMenu} className='mobile-logo' alt={'logo'} src={require('../../assets/logo.svg')} />
@@ -207,6 +222,7 @@ class App extends Component {
             {this.renderMobileMenu()}
           </div>
         </Mobile>
+
         <div className='container'>
           <Route exact path={routeString.HOME} component={Home} language />
           <Route path={routeString.ABOUT_US} component={About} />
