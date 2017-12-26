@@ -26,9 +26,9 @@ class CommonContact extends Component {
               </a>
             </div>
             <p className='common-contact-title'>General Inquiry</p>
-            <p className='common-contact-content'>inquiries@ybrain.com  I   +82 3180601470</p>
+            <p className='common-contact-content'>inquiries@ybrain.com  I   +82 3180601471</p>
             <p className='common-contact-title'>Location</p>
-            <p className='common-contact-content'>#802 8th Fl., Pangyo Digital Center C-dong, 242, Pangyo-ro,<br />Bungdang-gu, Seongnam-si, Gyeonggi-do, 13487, Korea<br /><br />경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
+            <p className='common-contact-content'>#P-812 815, Daewangpangyo-ro, Sujeong-gu, Seongnam-si, Gyeonggi-do,<br />13449, Republic of Korea<br /><br />경기도 성남시 수정구 대왕판교로 815, 기업지원허브 창업존 8층, P-812</p>
           </div>
           <div className='common-contact-right'>
             <div className='map'>

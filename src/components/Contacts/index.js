@@ -94,11 +94,11 @@ class Contacts extends Component {
               </a>
             </div>
             <p className='contact-title'>General Inquiry</p>
-            <p className='contact-content'>inquiries@ybrain.com  I   +82 3180601470</p>
+            <p className='contact-content'>inquiries@ybrain.com  I   +82 3180601471</p>
             <p className='contact-title'>Career</p>
             <p className='contact-content'>career@ybrain.com</p>
             <p className='contact-title'>R&D Center</p>
-            <p className='contact-content'>경기도 성남시 분당구 판교로 242 판교디지털센터 C동 802호</p>
+            <p className='contact-content'>경기도 성남시 수정구 대왕판교로 815, 기업지원허브 창업존 8층, P-812</p>
             <p className='contact-title'>HQ / Factory</p>
             <p className='contact-content'>대전광역시 유성구 죽동로 71 2층 202호</p>
           </div>

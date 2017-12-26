@@ -7,8 +7,8 @@ const Marker = () => <img className='mapmarker' alt='' src={require('../../asset
 
 class GoogleMap extends Component {
   static defaultProps = {
-    center: { lat: 37.402673, lng: 127.102109 },
-    zoom: 17
+    center: { lat: 37.415807, lng: 127.100715 },
+    zoom: 16
   };
 
   render() {
